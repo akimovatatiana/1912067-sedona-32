@@ -1,0 +1,28 @@
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.site-list__link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
+
+.user-list__link {
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
+
+.user-list__booking {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-transform: uppercase;
+  text-decoration: none;
+}

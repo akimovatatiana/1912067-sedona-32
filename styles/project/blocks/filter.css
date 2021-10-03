@@ -1,0 +1,25 @@
+.filter__title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.filter__span {
+  line-height: 23px;
+}
+
+.filter__button-submit {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-transform: uppercase;
+}
+
+.filter__button-reset {
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+}

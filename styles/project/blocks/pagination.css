@@ -1,0 +1,21 @@
+.pagination__item {
+  text-align: center;
+  background-color: #83B3D3;
+}
+
+.pagination__item_active {
+  background-color: #F2F2F2;
+}
+
+.pagination__link {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+.pagination__link_active {
+  color: #000000;
+  background-color: #F2F2F2;
+}

@@ -1,0 +1,13 @@
+.social__link {
+  color: #83B3D3;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
+
+.phone__link {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}

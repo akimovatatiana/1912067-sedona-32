@@ -1,0 +1,27 @@
+.search {
+  text-align: center;
+}
+
+.search__text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.search__description {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.search__button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-transform: uppercase;
+  text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.page-catalog {
+  background: #FFFFFF;
+}
+
+.page-catalog__header {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("../img/catalog-background-blur.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

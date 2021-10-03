@@ -1,0 +1,40 @@
+.catalog__title {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+}
+
+.catalog__type, .catalog__price {
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.catalog__more, .catalog__favourite {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.catalog__more {
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+}
+
+.catalog__favourite {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.catalog__favourite_added {
+  background-color: #7DB54F;
+}
+
+.catalog__rating {
+  font-size: 16px;
+  color: #333333;
+  background: #F2F2F2;
+  text-transform: uppercase;
+}

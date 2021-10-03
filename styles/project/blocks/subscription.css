@@ -1,0 +1,28 @@
+.subscription {
+  text-align: center;
+}
+
+.subscription__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscription-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscription__form-label {
+  font-family: "PT Sans", sans-serif;
+}
+
+.subscription__form-button {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-transform: uppercase;
+}

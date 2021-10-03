@@ -1,0 +1,15 @@
+.advantage {
+  text-align: center;
+}
+
+.reasons__title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantage__description {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}

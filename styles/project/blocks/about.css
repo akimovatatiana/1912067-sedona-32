@@ -1,0 +1,17 @@
+.about {
+  text-align: center;
+}
+
+.about__description {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__text {
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  background-color: #FFFFFF;
+}

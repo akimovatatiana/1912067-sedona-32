@@ -1,0 +1,15 @@
+.catalog-header__title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: bold;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs__link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
