@@ -108,8 +108,12 @@
   background-color: #83B3D3;
 }
 
-.advantages__item_blue-bg {
+.advantages-list__item_bg, .advantages-other__item_bg  {
   background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-other__item_center_bg {
+  background: rgba(131, 179, 211, 0.2);
 }
 
 .search {
