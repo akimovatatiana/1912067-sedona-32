@@ -11,17 +11,17 @@
   color: #333333;
 }
 
-.sorting-button {
+.hotels__sorting-button {
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
 }
 
-.sorting-button_active {
+.hotels__sorting-button_active {
   border: 2px solid #000000;
 }
 
-.hotels__button {
+.hotels__button-load {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;

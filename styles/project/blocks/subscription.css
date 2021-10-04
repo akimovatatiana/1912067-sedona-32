@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-.subscription-text {
+.subscription__description {
   font-size: 22px;
   line-height: 26px;
 }

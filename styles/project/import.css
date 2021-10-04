@@ -3,15 +3,21 @@
 
 @import "blocks/page.css";
 @import "blocks/button.css";
-@import "blocks/page-header.css";
+@import "blocks/site-list.css";
+@import "blocks/user-list.css";
 @import "blocks/banner.css";
 @import "blocks/about.css";
 @import "blocks/reasons.css";
+@import "blocks/advantage.css";
+@import "blocks/advantages-list.css";
+@import "blocks/advantages-other.css";
 @import "blocks/search.css";
 @import "blocks/subscription.css";
-@import "blocks/page-footer.css";
+@import "blocks/social.css";
+@import "blocks/phone.css";
 @import "blocks/page-catalog.css";
 @import "blocks/catalog-header.css";
+@import "blocks/breadcrumbs.css";
 @import "blocks/filter.css";
 @import "blocks/hotels.css";
 @import "blocks/catalog.css";

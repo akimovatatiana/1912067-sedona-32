@@ -1,0 +1,9 @@
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs__link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
