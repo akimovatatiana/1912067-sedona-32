@@ -10,11 +10,10 @@
 @import "blocks/search.css";
 @import "blocks/subscription.css";
 @import "blocks/page-footer.css";
-@import "blocks/index-subscription.css";
-@import "blocks/catalog-subscription.css";
 @import "blocks/page-catalog.css";
 @import "blocks/catalog-header.css";
 @import "blocks/filter.css";
 @import "blocks/hotels.css";
 @import "blocks/catalog.css";
 @import "blocks/pagination.css";
+@import "blocks/hotels-per-page.css";

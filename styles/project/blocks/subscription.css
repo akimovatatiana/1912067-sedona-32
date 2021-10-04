@@ -26,3 +26,21 @@
   background-color: #83B3D3;
   text-transform: uppercase;
 }
+
+.subscription_index {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("../img/index/index-background-blur.jpg");
+  background-position: center, 0, 0;
+  background-repeat: no-repeat;
+}
+
+.subscription_catalog {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.subscription__description_dark {
+  color: #333333;
+  background-color: #FFFFFF;
+}

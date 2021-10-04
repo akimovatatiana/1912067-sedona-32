@@ -1,4 +1,4 @@
-.advantage {
+.advantage, .advantages-list, .advantages-other {
   text-align: center;
 }
 
@@ -12,4 +12,8 @@
 .advantage__description {
   color: #FFFFFF;
   background-color: #83B3D3;
+}
+
+.advantages__item_blue-bg {
+  background: rgba(131, 179, 211, 0.12);
 }

@@ -160,8 +160,8 @@
             <h3 class="catalog__title">Amara Resort & Spa</h3>
             <span class="catalog__type">Гостиница</span>
             <span class="catalog__price">От 4000 ₽</span>
-            <a class="catalog__more" href="#">Подробнее</a>
-            <button class="button catalog__favourite" type="button">В избранное</button>
+            <a class="catalog-button catalog__more" href="#">Подробнее</a>
+            <button class="button catalog-button catalog__favourite" type="button">В избранное</button>
           </div>
           <div>
             <span class="catalog__rating">Рейтинг: 8,5</span>
@@ -173,8 +173,8 @@
             <h3 class="catalog__title">Desert Quail Inn</h3>
             <span class="catalog__type">Мотель</span>
             <span class="catalog__price">От 3000 ₽</span>
-            <a class="catalog__more" href="#">Подробнее</a>
-            <button class="button catalog__favourite" type="button">В избранное</button>
+            <a class="catalog-button catalog__more" href="#">Подробнее</a>
+            <button class="button catalog-button catalog__favourite" type="button">В избранное</button>
           </div>
           <div>
             <span class="catalog__rating">Рейтинг: 8,9</span>
@@ -186,8 +186,8 @@
             <h3 class="catalog__title">Villas at Poco Diablo</h3>
             <span class="catalog__type">Апартаменты</span>
             <span class="catalog__price">От 2000 ₽</span>
-            <a class="catalog__more" href="#">Подробнее</a>
-            <button class="button catalog__favourite catalog__favourite_added" type="button">В избранном</button>
+            <a class="catalog-button catalog__more" href="#">Подробнее</a>
+            <button class="button catalog-button catalog__favourite catalog__favourite_added" type="button">В избранном</button>
           </div>
           <div>
             <span class="catalog__rating">Рейтинг: 9,2</span>
@@ -199,8 +199,8 @@
             <h3 class="catalog__title">GreenTree Inn</h3>
             <span class="catalog__type">Гостиница</span>
             <span class="catalog__price">От 3000 ₽</span>
-            <a class="catalog__more" href="#">Подробнее</a>
-            <button class="button catalog__favourite" type="button">В избранное</button>
+            <a class="catalog-button catalog__more" href="#">Подробнее</a>
+            <button class="button catalog-button catalog__favourite" type="button">В избранное</button>
           </div>
           <div>
             <span class="catalog__rating">Рейтинг: 9,2</span>
@@ -231,9 +231,9 @@
         </li>
       </ul>
 
-      <form class="amount" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="amount__label" for="hotels-per-page">Гостиниц на странице:</label>
-        <select class="amount__select" id="hotels-per-page" name="hotels-per-page">
+      <form class="hotels-per-page" action="https://echo.htmlacademy.ru/" method="post">
+        <label class="hotels-per-page__label" for="hotels-per-page">Гостиниц на странице:</label>
+        <select class="hotels-per-page__select" id="hotels-per-page" name="hotels-per-page">
           <option value="4" selected>4</option>
           <option value="8">8</option>
           <option value="12">12</option>
@@ -242,7 +242,7 @@
       </form>
     </section>
 
-    <section class="catalog-subscription subscription">
+    <section class="subscription subscription_catalog">
       <h2 class="subscription__title">Подпишитесь на рассылку</h2>
       <p class="subscription__description subscription__description_dark">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscription__form" action="https://echo.htmlacademy.ru/" method="post">

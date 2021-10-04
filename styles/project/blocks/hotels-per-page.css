@@ -1,0 +1,13 @@
+.hotels-per-page__label {
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.hotels-per-page__select {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+}

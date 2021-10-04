@@ -10,7 +10,7 @@
   background-color: #FFFFFF;
 }
 
-.catalog__more, .catalog__favourite {
+.catalog-button {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;

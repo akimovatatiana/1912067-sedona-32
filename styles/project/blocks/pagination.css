@@ -10,6 +10,7 @@
 .pagination__link {
   font-size: 20px;
   line-height: 26px;
+  font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
   text-decoration: none;

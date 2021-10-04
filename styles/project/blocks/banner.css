@@ -1,9 +1,8 @@
 .banner {
   text-align: center;
   color: #FFFFFF;
-  background-color: #E5E5E5;
+  background-color: #000000;
   background-image: url("../img/index/index-background.jpg");
-  background-size: 100% auto;
+  background-position: center, 0, 0;
   background-repeat: no-repeat;
-  height: 485px;
 }
