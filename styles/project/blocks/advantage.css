@@ -1,4 +1,13 @@
 .advantage__description {
+  width: 400px;
   color: #FFFFFF;
   background-color: #83B3D3;
+}
+
+.advantage__text {
+  width: 250px;
+}
+
+.advantage__image {
+  width: 800px;
 }

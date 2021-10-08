@@ -3,8 +3,10 @@
 
 @import "blocks/page.css";
 @import "blocks/button.css";
+@import "blocks/main-navigation.css";
 @import "blocks/site-list.css";
 @import "blocks/user-list.css";
+@import "blocks/main-container.css";
 @import "blocks/banner.css";
 @import "blocks/about.css";
 @import "blocks/reasons.css";

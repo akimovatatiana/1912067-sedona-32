@@ -1,5 +1,11 @@
 .reasons {
+  margin: 0 auto;
   text-align: center;
+}
+
+.reasons__item {
+  display: flex;
+  flex-direction: row;
 }
 
 .reasons__title {

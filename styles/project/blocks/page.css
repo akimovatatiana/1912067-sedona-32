@@ -5,3 +5,11 @@
   color: #000000;
   background-color: #FFFFFF;
 }
+
+.page-body__container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+}
