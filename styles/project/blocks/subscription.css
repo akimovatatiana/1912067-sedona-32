@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.subscription__container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .subscription__title {
   font-size: 30px;
   line-height: 36px;
