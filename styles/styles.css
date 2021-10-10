@@ -353,6 +353,11 @@ html {
   text-decoration: none;
 }
 
+.filter__form {
+  display: flex;
+  padding: 0 71px;
+}
+
 .filter__title {
   font-size: 20px;
   line-height: 26px;
@@ -377,6 +382,10 @@ html {
   color: #FFFFFF;
   background: none;
   border: none;
+}
+
+.hotels {
+  padding: 0 71px;
 }
 
 .hotels__amount-text {

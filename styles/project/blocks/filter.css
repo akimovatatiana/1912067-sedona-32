@@ -1,3 +1,8 @@
+.filter__form {
+  display: flex;
+  padding: 0 71px;
+}
+
 .filter__title {
   font-size: 20px;
   line-height: 26px;
