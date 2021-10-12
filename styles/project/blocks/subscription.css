@@ -1,4 +1,6 @@
 .subscription {
+  padding-top: 94px;
+  padding-bottom: 94px;
   text-align: center;
 }
 
@@ -8,6 +10,7 @@
 }
 
 .subscription__title {
+  margin: 0 auto 15px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -15,6 +18,7 @@
 }
 
 .subscription__description {
+  margin: 0 auto 26px;
   font-size: 22px;
   line-height: 26px;
 }

@@ -1,16 +1,24 @@
 .advantages-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .advantages-list__item {
   width: 400px;
+  padding: 184px 75px 79px;
 }
 
 .advantages-list__item_bg  {
   background: rgba(131, 179, 211, 0.12);
 }
 
+.advantages-list__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .advantages-list__description {
+  margin: 0;
   color: #333333;
 }

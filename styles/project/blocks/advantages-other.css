@@ -1,5 +1,6 @@
 .advantages-other__item {
   width: 400px;
+  padding: 98px 75px 77px;
 }
 
 .advantages-other__item_bg  {
@@ -8,6 +9,20 @@
 
 .advantages-other__item_center_bg {
   background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-other__title {
+  max-width: 150px;
+  margin: 0 auto 25px;
+}
+
+.advantages-other__text {
+  margin: 0;
+}
+
+.advantages-other__number {
+  display: block;
+  margin-bottom: 26px;
 }
 
 .advantages-other__number, .advantages-other__text {

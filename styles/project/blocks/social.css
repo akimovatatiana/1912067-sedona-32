@@ -2,7 +2,25 @@
   width: 140px;
 }
 
+.social__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.social__item {
+  margin-right: 30px;
+}
+
+.social__item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .social__link {
+  display: block;
+  min-width: 20px;
+  min-height: 18px;
   color: #83B3D3;
   background-color: #FFFFFF;
   text-decoration: none;

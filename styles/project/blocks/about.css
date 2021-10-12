@@ -1,10 +1,14 @@
 .about {
   width: 720px;
   margin: 0 auto;
+  padding-top: 63px;
+  padding-bottom: 79px;
   text-align: center;
 }
 
 .about__description {
+  margin-top: 0;
+  margin-bottom: 23px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -12,6 +16,7 @@
 }
 
 .about__text {
+  margin: 0;
   font-size: 22px;
   line-height: 36px;
   color: #333333;
