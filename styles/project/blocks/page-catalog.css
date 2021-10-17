@@ -1,11 +1,17 @@
 .page-catalog {
+  padding-bottom: 197px;
   background: #FFFFFF;
 }
 
 .page-catalog__header {
+  padding: 35px 72px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/catalog-background-blur.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.page-catalog__hotels {
+  margin-bottom: 89px;
 }

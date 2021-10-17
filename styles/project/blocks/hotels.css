@@ -1,12 +1,23 @@
 .hotels {
-  padding: 0 71px;
+  padding: 0 72px;
+}
+
+.hotels__header {
+  display: flex;
+  padding-top: 44px;
+  padding-bottom: 42px;
 }
 
 .hotels__amount-text {
+  margin: 0 192px 0 0;
   font-size: 30px;
   line-height: 39px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.hotels__sorting {
+  margin-right: auto;
 }
 
 .hotels__sorting-select {
@@ -16,9 +27,16 @@
 }
 
 .hotels__sorting-button {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.hotels__sorting-button:last-of-type {
+  margin-right: 0;
 }
 
 .hotels__sorting-button_active {
@@ -26,10 +44,17 @@
 }
 
 .hotels__button-load {
+  display: block;
+  margin: 30px auto;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
   text-transform: uppercase;
+}
+
+.hotels__pagination {
+  display: flex;
+  justify-content: space-between;
 }

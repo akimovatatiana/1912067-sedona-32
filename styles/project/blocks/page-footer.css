@@ -1,7 +1,8 @@
 .page-footer {
   display: flex;
+  align-items: center;
   margin: 0 auto;
-  padding: 0 72px;
+  padding: 40px 72px;
 }
 
 .page-footer__phone {

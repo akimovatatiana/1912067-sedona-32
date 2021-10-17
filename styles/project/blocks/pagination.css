@@ -1,6 +1,21 @@
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .pagination__item {
   text-align: center;
   background-color: #83B3D3;
+}
+
+.pagination__item {
+  margin-right: 8px;
+}
+
+.pagination__item:last-of-type {
+  margin-right: 0;
 }
 
 .pagination__item_active {
@@ -8,6 +23,12 @@
 }
 
 .pagination__link {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;

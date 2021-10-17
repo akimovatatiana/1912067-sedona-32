@@ -1,9 +1,14 @@
 .breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 21px;
+  list-style-type: none;
 }
 
 .breadcrumbs__link {
+  margin-right: 26px;
   color: #FFFFFF;
   text-decoration: none;
 }

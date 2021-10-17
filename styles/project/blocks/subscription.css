@@ -1,6 +1,4 @@
 .subscription {
-  padding-top: 94px;
-  padding-bottom: 94px;
   text-align: center;
 }
 
@@ -37,6 +35,8 @@
 }
 
 .subscription_index {
+  padding-top: 94px;
+  padding-bottom: 94px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/index/index-background-blur.jpg");

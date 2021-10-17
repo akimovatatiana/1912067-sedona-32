@@ -44,7 +44,7 @@
     </header>
 
     <main class="main-container page-catalog">
-      <section class="page-catalog__header">
+      <div class="page-catalog__header">
         <header class="catalog-header">
           <h1 class="catalog-header__title">Гостиницы Седоны</h1>
           <ul class="catalog-header__list breadcrumbs">
@@ -125,34 +125,38 @@
               </button>
             </fieldset>
 
-            <button class="button filter__button-submit" type="submit">Применить</button>
-            <button class="button filter__button-reset" type="reset">Сбросить</button>
+            <div class="filter__button-container">
+              <button class="button filter__button-submit" type="submit">Применить</button>
+              <button class="button filter__button-reset" type="reset">Сбросить</button>
+            </div>
           </form>
         </section>
-      </section>
+      </div>
 
-      <section class="hotels">
+      <section class="page-catalog__hotels hotels">
         <h2 class="visually-hidden">Список гостиниц</h2>
 
-        <p class="hotels__amount-text">Найдено гостиниц: 38</p>
-        <form class="hotels__sorting" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="visually-hidden" for="sorting">Сортировка</label>
-          <select class="hotels__sorting-select" id="sorting" name="sorting">
-            <option value="cheap">Сначала дешевые</option>
-            <option value="expensive">Сначала дорогие</option>
-          </select>
-          <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
-        </form>
+        <div class="hotels__header">
+          <p class="hotels__amount-text">Найдено гостиниц: 38</p>
+          <form class="hotels__sorting" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="visually-hidden" for="sorting">Сортировка</label>
+            <select class="hotels__sorting-select" id="sorting" name="sorting">
+              <option value="cheap">Сначала дешевые</option>
+              <option value="expensive">Сначала дорогие</option>
+            </select>
+            <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
+          </form>
 
-        <a class="hotels__sorting-button" href="#">
-          <span class="visually-hidden">Показать плитку</span>
-        </a>
-        <a class="hotels__sorting-button" href="#">
-          <span class="visually-hidden">Показать слайдшоу</span>
-        </a>
-        <a class="hotels__sorting-button hotels__sorting-button_active" href="#">
-          <span class="visually-hidden">Показать список</span>
-        </a>
+          <a class="hotels__sorting-button" href="#">
+            <span class="visually-hidden">Показать плитку</span>
+          </a>
+          <a class="hotels__sorting-button" href="#">
+            <span class="visually-hidden">Показать слайдшоу</span>
+          </a>
+          <a class="hotels__sorting-button hotels__sorting-button_active" href="#">
+            <span class="visually-hidden">Показать список</span>
+          </a>
+        </div>
 
         <ul class="catalog">
           <li class="catalog__item">
@@ -211,36 +215,38 @@
 
         <button class="button hotels__button-load" type="button">Загрузить еще</button>
 
-        <ul class="pagination">
-          <li class="pagination__item pagination__item_active">
-            <a class="pagination__link pagination__link_active">1</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">2</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">3</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">4</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">...</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">10</a>
-          </li>
-        </ul>
+        <div class="hotels__pagination">
+          <ul class="pagination">
+            <li class="pagination__item pagination__item_active">
+              <a class="pagination__link pagination__link_active">1</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">2</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">3</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">4</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">...</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">10</a>
+            </li>
+          </ul>
 
-        <form class="hotels-per-page" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="hotels-per-page__label" for="hotels-per-page">Гостиниц на странице:</label>
-          <select class="hotels-per-page__select" id="hotels-per-page" name="hotels-per-page">
-            <option value="4" selected>4</option>
-            <option value="8">8</option>
-            <option value="12">12</option>
-          </select>
-          <button class="visually-hidden" type="submit">Показать гостиницы</button>
-        </form>
+          <form class="hotels-per-page" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="hotels-per-page__label" for="hotels-per-page">Гостиниц на странице:</label>
+            <select class="hotels-per-page__select" id="hotels-per-page" name="hotels-per-page">
+              <option value="4" selected>4</option>
+              <option value="8">8</option>
+              <option value="12">12</option>
+            </select>
+            <button class="visually-hidden" type="submit">Показать гостиницы</button>
+          </form>
+        </div>
       </section>
 
       <section class="subscription subscription_catalog">

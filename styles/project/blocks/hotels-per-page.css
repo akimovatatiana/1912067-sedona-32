@@ -1,4 +1,9 @@
+.hotels-per-page {
+  display: flex;
+}
+
 .hotels-per-page__label {
+  margin-right: 51px;
   line-height: 23px;
   color: #333333;
   background-color: #FFFFFF;
