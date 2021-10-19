@@ -21,6 +21,12 @@
   line-height: 26px;
 }
 
+.subscription__form {
+  display: grid;
+  grid-template-columns: 600px 200px;
+  grid-template-rows: 61px;
+}
+
 .subscription__form-label {
   font-family: "PT Sans", sans-serif;
 }

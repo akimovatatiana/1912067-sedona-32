@@ -333,6 +333,12 @@ html {
   line-height: 26px;
 }
 
+.subscription__form {
+  display: grid;
+  grid-template-columns: 600px 200px;
+  grid-template-rows: 61px;
+}
+
 .subscription__form-label {
   font-family: "PT Sans", sans-serif;
 }
@@ -575,11 +581,26 @@ html {
 }
 
 .catalog__item {
+  display: flex;
   padding-top: 28px;
   padding-bottom: 30px;
 }
 
+.catalog__image {
+  margin-right: 36px;
+}
+
+.catalog__description {
+  display: grid;
+  grid-template-columns: 151px 151px;
+  grid-template-rows: 31px auto 37px;
+  grid-gap: 0 8px;
+}
+
 .catalog__title {
+  grid-column: 1 / -1;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
@@ -599,8 +620,12 @@ html {
 }
 
 .catalog__more {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: #FFFFFF;
   background-color: #756257;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -614,6 +639,13 @@ html {
 }
 
 .catalog__rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: auto;
+}
+
+.catalog__rating-number {
   font-size: 16px;
   color: #333333;
   background: #F2F2F2;
@@ -676,6 +708,7 @@ html {
 }
 
 .hotels-per-page__select {
+  width: 160px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;

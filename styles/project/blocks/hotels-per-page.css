@@ -10,6 +10,7 @@
 }
 
 .hotels-per-page__select {
+  width: 160px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
