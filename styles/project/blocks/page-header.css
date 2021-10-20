@@ -5,3 +5,7 @@
 .page-header__logo {
   margin: 0 auto;
 }
+
+.page-header__logo-image {
+  display: block;
+}

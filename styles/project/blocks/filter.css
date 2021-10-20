@@ -2,6 +2,24 @@
   display: flex;
 }
 
+.filter__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filter__fieldset-infrastructure {
+  margin-right: 67px;
+}
+
+.filter__fieldset-type {
+  margin-right: 167px;
+}
+
+.filter__fieldset-price {
+  margin-right: 81px;
+}
+
 .filter__title {
   font-size: 20px;
   line-height: 26px;

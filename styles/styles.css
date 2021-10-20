@@ -70,6 +70,10 @@ html {
   margin: 0 auto;
 }
 
+.page-header__logo-image {
+  display: block;
+}
+
 .site-list {
   display: flex;
   flex-wrap: wrap;
@@ -79,9 +83,17 @@ html {
   list-style-type: none;
 }
 
+.site-list__item {
+  margin-right: 33px;
+}
+
+.site-list__item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .site-list__link {
   display: block;
-  padding: 19px 17px 20px;
+  padding: 19px 0 20px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -129,7 +141,8 @@ html {
 }
 
 .main-navigation {
-  display: flex;
+  display: grid;
+  grid-template-columns: 400px 256px 400px;
 }
 
 .main-navigation__list-right {
@@ -480,6 +493,24 @@ html {
 
 .filter__form {
   display: flex;
+}
+
+.filter__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filter__fieldset-infrastructure {
+  margin-right: 67px;
+}
+
+.filter__fieldset-type {
+  margin-right: 167px;
+}
+
+.filter__fieldset-price {
+  margin-right: 81px;
 }
 
 .filter__title {
