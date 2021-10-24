@@ -1,5 +1,6 @@
 .hotels-per-page {
   display: flex;
+  align-items: center;
 }
 
 .hotels-per-page__label {
@@ -11,6 +12,7 @@
 
 .hotels-per-page__select {
   width: 160px;
+  padding: 11px 17px 10px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;

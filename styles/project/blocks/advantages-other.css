@@ -1,6 +1,6 @@
 .advantages-other__item {
   width: 400px;
-  padding: 98px 75px 77px;
+  padding: 98px 75px 115px;
 }
 
 .advantages-other__item_bg  {
@@ -13,7 +13,7 @@
 
 .advantages-other__title {
   max-width: 150px;
-  margin: 0 auto 25px;
+  margin: 0 auto 28px;
 }
 
 .advantages-other__text {
@@ -22,7 +22,7 @@
 
 .advantages-other__number {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 32px;
 }
 
 .advantages-other__number, .advantages-other__text {

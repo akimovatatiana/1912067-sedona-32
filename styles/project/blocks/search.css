@@ -23,6 +23,10 @@
 }
 
 .search__button {
+  display: block;
+  width: 575px;
+  margin: 0 auto;
+  padding: 12px 0;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;

@@ -28,6 +28,9 @@
 
 .user-list__booking {
   display: block;
+  width: 160px;
+  padding: 8px 0;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;

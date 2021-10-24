@@ -21,9 +21,25 @@
 }
 
 .filter__title {
+  margin-bottom: 30px;
+  padding: 0;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.filter__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.filter__checkbox, .filter__radio-button {
+  margin-bottom: 13px;
+}
+
+.filter__checkbox:nth-child(3n), .filter__radio-button:nth-child(3n) {
+  margin-bottom: 0;
 }
 
 .filter__span {
@@ -33,9 +49,13 @@
 .filter__button-container {
   display: flex;
   flex-direction: column;
+  justify-content: end;
 }
 
 .filter__button-submit {
+  width: 160px;
+  margin-bottom: 20px;
+  padding: 14px 0;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;

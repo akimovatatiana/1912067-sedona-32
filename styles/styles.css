@@ -132,6 +132,9 @@ html {
 
 .user-list__booking {
   display: block;
+  width: 160px;
+  padding: 8px 0;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
@@ -174,7 +177,7 @@ html {
 
 .about__description {
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 33px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -213,12 +216,12 @@ html {
 
 .advantage__title {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 29px;
 }
 
 .advantage__number {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 .advantage__text {
@@ -241,7 +244,7 @@ html {
 
 .advantages-list__item {
   width: 400px;
-  padding: 184px 75px 79px;
+  padding: 184px 75px 89px;
 }
 
 .advantages-list__item_bg  {
@@ -260,7 +263,7 @@ html {
 
 .advantages-other__item {
   width: 400px;
-  padding: 98px 75px 77px;
+  padding: 98px 75px 115px;
 }
 
 .advantages-other__item_bg  {
@@ -273,7 +276,7 @@ html {
 
 .advantages-other__title {
   max-width: 150px;
-  margin: 0 auto 25px;
+  margin: 0 auto 28px;
 }
 
 .advantages-other__text {
@@ -282,7 +285,7 @@ html {
 
 .advantages-other__number {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 32px;
 }
 
 .advantages-other__number, .advantages-other__text {
@@ -314,6 +317,10 @@ html {
 }
 
 .search__button {
+  display: block;
+  width: 575px;
+  margin: 0 auto;
+  padding: 12px 0;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -333,7 +340,7 @@ html {
 }
 
 .subscription__title {
-  margin: 0 auto 15px;
+  margin: 0 auto 30px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -341,7 +348,8 @@ html {
 }
 
 .subscription__description {
-  margin: 0 auto 26px;
+  margin: 0 auto 46px;
+  padding: 0 130px;
   font-size: 22px;
   line-height: 26px;
 }
@@ -353,7 +361,11 @@ html {
 }
 
 .subscription__form-label {
+  padding: 0 19px 0 22px;
   font-family: "PT Sans", sans-serif;
+  background: #F2F2F2;
+  border-radius: 10px 0 0 10px;
+  border: none;
 }
 
 .subscription__form-button {
@@ -366,7 +378,7 @@ html {
 }
 
 .subscription_index {
-  padding-top: 94px;
+  padding-top: 92px;
   padding-bottom: 94px;
   color: #FFFFFF;
   background-color: #000000;
@@ -388,7 +400,6 @@ html {
 .page-footer {
   display: flex;
   align-items: center;
-  margin: 0 auto;
   padding: 40px 72px;
 }
 
@@ -447,12 +458,12 @@ html {
 }
 
 .page-catalog {
-  padding-bottom: 197px;
+  padding-bottom: 138px;
   background: #FFFFFF;
 }
 
 .page-catalog__header {
-  padding: 35px 72px;
+  padding: 35px 72px 73px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/catalog-background-blur.jpg");
@@ -514,9 +525,25 @@ html {
 }
 
 .filter__title {
+  margin-bottom: 30px;
+  padding: 0;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.filter__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.filter__checkbox, .filter__radio-button {
+  margin-bottom: 13px;
+}
+
+.filter__checkbox:nth-child(3n), .filter__radio-button:nth-child(3n) {
+  margin-bottom: 0;
 }
 
 .filter__span {
@@ -526,9 +553,13 @@ html {
 .filter__button-container {
   display: flex;
   flex-direction: column;
+  justify-content: end;
 }
 
 .filter__button-submit {
+  width: 160px;
+  margin-bottom: 20px;
+  padding: 14px 0;
   font-size: 16px;
   font-weight: 700;
   color: #FFFFFF;
@@ -567,6 +598,8 @@ html {
 }
 
 .hotels__sorting-select {
+  width: 287px;
+  padding: 12px 19px 13px;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
@@ -591,7 +624,10 @@ html {
 
 .hotels__button-load {
   display: block;
+  width: 625px;
   margin: 30px auto;
+  padding-top: 15px;
+  padding-bottom: 14px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -603,6 +639,7 @@ html {
 .hotels__pagination {
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 .catalog {
@@ -677,6 +714,10 @@ html {
 }
 
 .catalog__rating-number {
+  width: 160px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  text-align: center;
   font-size: 16px;
   color: #333333;
   background: #F2F2F2;
@@ -729,6 +770,7 @@ html {
 
 .hotels-per-page {
   display: flex;
+  align-items: center;
 }
 
 .hotels-per-page__label {
@@ -740,6 +782,7 @@ html {
 
 .hotels-per-page__select {
   width: 160px;
+  padding: 11px 17px 10px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;

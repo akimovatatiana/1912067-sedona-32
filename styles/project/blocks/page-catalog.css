@@ -1,10 +1,10 @@
 .page-catalog {
-  padding-bottom: 197px;
+  padding-bottom: 138px;
   background: #FFFFFF;
 }
 
 .page-catalog__header {
-  padding: 35px 72px;
+  padding: 35px 72px 73px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/catalog-background-blur.jpg");

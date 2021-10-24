@@ -21,6 +21,8 @@
 }
 
 .hotels__sorting-select {
+  width: 287px;
+  padding: 12px 19px 13px;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
@@ -45,7 +47,10 @@
 
 .hotels__button-load {
   display: block;
+  width: 625px;
   margin: 30px auto;
+  padding-top: 15px;
+  padding-bottom: 14px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -57,4 +62,5 @@
 .hotels__pagination {
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
 }
