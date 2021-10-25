@@ -8,3 +8,7 @@
   background-position: center, 0, 0;
   background-repeat: no-repeat;
 }
+
+.banner__logo {
+  padding-top: 5px;
+}

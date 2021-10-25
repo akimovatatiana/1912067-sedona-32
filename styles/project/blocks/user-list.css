@@ -19,11 +19,22 @@
 
 .user-list__link {
   display: block;
+  position: relative;
   min-width: 31px;
   min-height: 27px;
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.user-list__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #000000;
 }
 
 .user-list__booking {
@@ -37,4 +48,5 @@
   background-color: #756257;
   text-transform: uppercase;
   text-decoration: none;
+  border-radius: 4px;
 }

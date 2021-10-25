@@ -1,14 +1,15 @@
 .about {
   width: 720px;
   margin: 0 auto;
-  padding-top: 63px;
-  padding-bottom: 79px;
+  padding-top: 62px;
+  padding-bottom: 80px;
   text-align: center;
+
 }
 
 .about__description {
   margin-top: 0;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
