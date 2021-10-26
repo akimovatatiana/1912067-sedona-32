@@ -9,8 +9,12 @@
   list-style-type: none;
 }
 
-.user-list__item {
-  margin-right: 20px;
+.user-list__item:nth-child(1n) {
+  margin-right: 7px;
+}
+
+.user-list__item:nth-child(2n) {
+  margin-right: 28px;
 }
 
 .user-list__item:nth-child(3n) {

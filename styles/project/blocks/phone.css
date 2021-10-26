@@ -1,5 +1,6 @@
 .phone {
-  width: 720px;
+  width: 100%;
+  max-width: 830px;
 }
 
 .phone__link {

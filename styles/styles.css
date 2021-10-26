@@ -55,6 +55,7 @@ html {
   min-height: 100%;
   margin: 0 auto;
   background-color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -119,8 +120,12 @@ html {
   list-style-type: none;
 }
 
-.user-list__item {
-  margin-right: 20px;
+.user-list__item:nth-child(1n) {
+  margin-right: 7px;
+}
+
+.user-list__item:nth-child(2n) {
+  margin-right: 28px;
 }
 
 .user-list__item:nth-child(3n) {
@@ -279,22 +284,22 @@ html {
   margin-bottom: 20px;
 }
 
-.advantages-list__title::before {
-  content: "";
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: 0 auto;
-}
+/*.advantages-list__title::before {*/
+/*  content: "";*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: 0 0;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  top: 0;*/
+/*  margin: 0 auto;*/
+/*}*/
 
-.advantages-list__title::before {
-  background-image: url("../img/index/house.svg");
-  width: 75px;
-  height: 72px;
-}
+/*.advantages-list__title::before {*/
+/*  background-image: url("../img/index/house.svg");*/
+/*  width: 75px;*/
+/*  height: 72px;*/
+/*}*/
 
 .advantages-list__description {
   margin: 0;
@@ -303,7 +308,7 @@ html {
 
 .advantages-other__item {
   width: 400px;
-  padding: 98px 75px 115px;
+  padding: 98px 75px 109px;
 }
 
 .advantages-other__item_bg  {
@@ -325,7 +330,7 @@ html {
 
 .advantages-other__number {
   display: block;
-  margin-bottom: 32px;
+  margin-bottom: 29px;
 }
 
 .advantages-other__number, .advantages-other__text {
@@ -335,13 +340,13 @@ html {
 .search {
   width: 720px;
   margin: 0 auto;
-  padding-top: 91px;
+  padding-top: 89px;
   padding-bottom: 91px;
   text-align: center;
 }
 
 .search__text {
-  margin: 0 auto 15px;
+  margin: 0 auto 30px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -349,7 +354,7 @@ html {
 }
 
 .search__description {
-  margin: 0 auto 73px;
+  margin: 0 auto 59px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -366,6 +371,7 @@ html {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
+  border-radius: 10px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -388,7 +394,7 @@ html {
 }
 
 .subscription__description {
-  margin: 0 auto 46px;
+  margin: 0 auto 47px;
   padding: 0 130px;
   font-size: 22px;
   line-height: 26px;
@@ -403,6 +409,8 @@ html {
 .subscription__form-label {
   padding: 0 19px 0 22px;
   font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
   background: #F2F2F2;
   border-radius: 10px 0 0 10px;
   border: none;
@@ -414,12 +422,13 @@ html {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
+  border-radius: 0 10px 10px 0;
   text-transform: uppercase;
 }
 
 .subscription_index {
   padding-top: 92px;
-  padding-bottom: 94px;
+  padding-bottom: 93px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/index/index-background-blur.jpg");
@@ -440,12 +449,16 @@ html {
 .page-footer {
   display: flex;
   align-items: center;
-  padding: 40px 72px;
+  padding: 37px 72px 43px;
 }
 
 .page-footer__phone {
   flex-grow: 1;
   text-align: center;
+}
+
+.page-footer__copyright {
+  padding-top: 5px;
 }
 
 .social {
@@ -461,7 +474,7 @@ html {
 }
 
 .social__item {
-  margin-right: 30px;
+  margin-right: 23px;
 }
 
 .social__item:nth-child(3n) {
@@ -474,11 +487,26 @@ html {
   min-height: 18px;
   color: #83B3D3;
   background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
   text-decoration: none;
 }
 
+.social__link-twitter {
+  background-image: url("../img/twitter.svg");
+}
+
+.social__link-facebook {
+  background-image: url("../img/facebook.svg");
+}
+
+.social__link-youtube {
+  background-image: url("../img/youtube.svg");
+}
+
 .phone {
-  width: 720px;
+  width: 100%;
+  max-width: 830px;
 }
 
 .phone__link {
@@ -503,7 +531,7 @@ html {
 }
 
 .page-catalog__header {
-  padding: 35px 72px 73px;
+  padding: 32px 71px 84px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/catalog-background-blur.jpg");
@@ -516,12 +544,12 @@ html {
 }
 
 .catalog-header {
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 }
 
 .catalog-header__title {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   font-size: 60px;
   line-height: 78px;
   font-weight: bold;
@@ -539,6 +567,7 @@ html {
 .breadcrumbs__link {
   margin-right: 26px;
   color: #FFFFFF;
+  line-height: 21px;
   text-decoration: none;
 }
 
@@ -598,7 +627,7 @@ html {
 
 .filter__button-submit {
   width: 160px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   padding: 14px 0;
   font-size: 16px;
   font-weight: 700;

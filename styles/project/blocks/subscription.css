@@ -16,7 +16,7 @@
 }
 
 .subscription__description {
-  margin: 0 auto 46px;
+  margin: 0 auto 47px;
   padding: 0 130px;
   font-size: 22px;
   line-height: 26px;
@@ -31,6 +31,8 @@
 .subscription__form-label {
   padding: 0 19px 0 22px;
   font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
   background: #F2F2F2;
   border-radius: 10px 0 0 10px;
   border: none;
@@ -42,12 +44,13 @@
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
+  border-radius: 0 10px 10px 0;
   text-transform: uppercase;
 }
 
 .subscription_index {
   padding-top: 92px;
-  padding-bottom: 94px;
+  padding-bottom: 93px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/index/index-background-blur.jpg");

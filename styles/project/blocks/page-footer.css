@@ -1,10 +1,14 @@
 .page-footer {
   display: flex;
   align-items: center;
-  padding: 40px 72px;
+  padding: 37px 72px 43px;
 }
 
 .page-footer__phone {
   flex-grow: 1;
   text-align: center;
+}
+
+.page-footer__copyright {
+  padding-top: 5px;
 }
