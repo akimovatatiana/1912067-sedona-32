@@ -10,11 +10,11 @@
 }
 
 .user-list__item:nth-child(1n) {
-  margin-right: 7px;
+  margin-right: 5px;
 }
 
 .user-list__item:nth-child(2n) {
-  margin-right: 28px;
+  margin-right: 25px;
 }
 
 .user-list__item:nth-child(3n) {
@@ -24,11 +24,39 @@
 .user-list__link {
   display: block;
   position: relative;
-  min-width: 31px;
-  min-height: 27px;
+  min-width: 34px;
+  min-height: 34px;
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.user-list__link-favourite::after {
+  position: absolute;
+  content: "12";
+  width: 19px;
+  height: 19px;
+  bottom: 17px;
+  left: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  border-radius: 50%;
+}
+
+.user-list__link:hover .user-list__icon {
+  fill: #756257;
+}
+
+.user-list__link:focus {
+  box-shadow: 0 0 0 3px #83B3D3;
+  border-radius: 10px;
+}
+
+.user-list__link:focus .user-list__icon {
+  fill: #756257;
 }
 
 .user-list__icon {
@@ -53,4 +81,13 @@
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 4px;
+}
+
+.user-list__booking:hover {
+  background-color: #615048;
+}
+
+.user-list__booking:focus {
+  background-color: #615048;
+  box-shadow: 0 0 0 3px #83B3D3;
 }

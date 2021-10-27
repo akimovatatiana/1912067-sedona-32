@@ -8,11 +8,22 @@
 }
 
 .site-list__item {
-  margin-right: 33px;
+  position: relative;
+  margin-right: 32px;
 }
 
 .site-list__item:nth-child(3n) {
   margin-right: 0;
+}
+
+.site-list__item-current::before {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  background-color: #756257;
+  content: "";
 }
 
 .site-list__link {
@@ -24,4 +35,14 @@
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.site-list__link:hover {
+  color: #756257;
+}
+
+.site-list__link:focus {
+  color: #756257;
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  border-radius: 10px;
 }

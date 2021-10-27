@@ -14,26 +14,39 @@
 }
 
 .advantages-list__title {
+  position: relative;
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-/*.advantages-list__title::before {*/
-/*  content: "";*/
-/*  background-repeat: no-repeat;*/
-/*  background-position: 0 0;*/
-/*  position: absolute;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  top: 0;*/
-/*  margin: 0 auto;*/
-/*}*/
+.advantages-list__title::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 51px;
+  margin: 0 auto;
+}
 
-/*.advantages-list__title::before {*/
-/*  background-image: url("../img/index/house.svg");*/
-/*  width: 75px;*/
-/*  height: 72px;*/
-/*}*/
+.advantages-list__title-house::before {
+  background-image: url("../img/index/house.svg");
+  width: 75px;
+  height: 72px;
+}
+
+.advantages-list__title-food::before {
+  background-image: url("../img/index/food.svg");
+  width: 74px;
+  height: 70px;
+}
+
+.advantages-list__title-present::before {
+  background-image: url("../img/index/present.svg");
+  width: 64px;
+  height: 76px;
+}
 
 .advantages-list__description {
   margin: 0;

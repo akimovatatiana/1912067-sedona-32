@@ -10,8 +10,8 @@
 
 .page-header__logo-image {
   display: block;
+  position: absolute;
   margin: 0 auto;
   left: 0;
   right: 0;
-  position: absolute;
 }

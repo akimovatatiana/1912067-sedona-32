@@ -36,3 +36,13 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.search__button:hover {
+  background-color: #615048;
+}
+
+.search__button:focus {
+  box-sizing: border-box;
+  background-color: #615048;
+  box-shadow: 0 0 0 3px #83B3D3;
+}

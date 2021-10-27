@@ -4,9 +4,25 @@
 }
 
 .phone__link {
+  padding: 6px 12px;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.phone__link:hover {
+  color: #756257;
+}
+
+.phone__link:focus {
+  color: #756257;
+  box-shadow: 0 0 0 3px #83B3D3;
+  border-radius: 10px;
+}
+
+.phone__link:active {
+  color: #756257;
+  opacity: 0.3;
 }
