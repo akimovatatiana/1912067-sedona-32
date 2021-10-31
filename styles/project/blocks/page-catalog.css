@@ -4,7 +4,8 @@
 }
 
 .page-catalog__header {
-  padding: 32px 71px 84px;
+  padding-top: 32px;
+  padding-bottom: 84px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../img/catalog-background-blur.jpg");
@@ -13,5 +14,5 @@
 }
 
 .page-catalog__hotels {
-  margin-bottom: 89px;
+  margin-bottom: 87px;
 }

@@ -3,7 +3,6 @@
 
 @import "blocks/page.css";
 @import "blocks/button.css";
-@import "blocks/state-format.css";
 @import "blocks/page-header.css";
 @import "blocks/site-list.css";
 @import "blocks/user-list.css";
@@ -22,8 +21,8 @@
 @import "blocks/phone.css";
 @import "blocks/copyright.css";
 @import "blocks/page-catalog.css";
-@import "blocks/catalog-header.css";
 @import "blocks/breadcrumbs.css";
+@import "blocks/catalog-header.css";
 @import "blocks/filter.css";
 @import "blocks/hotels.css";
 @import "blocks/catalog.css";

@@ -1,11 +1,18 @@
 .catalog-header {
-  margin-bottom: 42px;
+  margin-bottom: 43px;
+  padding-left: 65px;
+  padding-right: 71px;
 }
 
 .catalog-header__title {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 6px;
   font-size: 60px;
   line-height: 78px;
   font-weight: bold;
+}
+
+.catalog-header__list {
+  margin-top: -7px;
 }

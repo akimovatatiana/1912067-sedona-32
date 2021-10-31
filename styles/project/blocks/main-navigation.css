@@ -1,6 +1,6 @@
 .main-navigation {
   display: grid;
-  grid-template-columns: 400px 256px 400px;
+  grid-template-columns: 413px 256px 400px;
 }
 
 .main-navigation__list-right {

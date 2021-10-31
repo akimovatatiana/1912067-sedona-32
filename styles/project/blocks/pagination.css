@@ -34,3 +34,17 @@
   color: #000000;
   background-color: #F2F2F2;
 }
+
+.pagination__link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination__link:focus {
+  background-color: #68A2CA;
+  box-shadow: 0 0 0 3px #756257;
+}
+
+.pagination__link:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #68A2CA;
+}

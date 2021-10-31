@@ -1,4 +1,5 @@
 .banner {
+  position: relative;
   padding-top: 47px;
   padding-bottom: 82px;
   text-align: center;
@@ -11,4 +12,17 @@
 
 .banner__logo {
   padding-top: 5px;
+}
+
+.banner::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1200px;
+  height: 57px;
+  background-image: url("../img/index/mask.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
