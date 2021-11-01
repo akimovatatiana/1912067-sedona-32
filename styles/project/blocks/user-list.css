@@ -14,6 +14,7 @@
 }
 
 .user-list__item:nth-child(2n) {
+  position: relative;
   margin-right: 25px;
 }
 
@@ -109,4 +110,11 @@
   color: rgba(255, 255, 255, 0.3);
   background-color: #615048;
   box-shadow: none;
+}
+
+.user-list__popover {
+  position: absolute;
+  top: 46px;
+  left: -181px;
+  z-index: 1;
 }

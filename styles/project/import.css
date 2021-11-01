@@ -6,6 +6,8 @@
 @import "blocks/page-header.css";
 @import "blocks/site-list.css";
 @import "blocks/user-list.css";
+@import "blocks/popover-fav.css";
+@import "blocks/fav-list.css";
 @import "blocks/main-navigation.css";
 @import "blocks/main-container.css";
 @import "blocks/banner.css";
