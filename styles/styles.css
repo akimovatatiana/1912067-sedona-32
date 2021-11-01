@@ -1330,11 +1330,6 @@ html {
   text-decoration: none;
 }
 
-.pagination__link_active {
-  color: #000000;
-  background-color: #F2F2F2;
-}
-
 .pagination__link:hover {
   background-color: #68A2CA;
 }
@@ -1347,6 +1342,21 @@ html {
 .pagination__link:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #68A2CA;
+  box-shadow: none;
+}
+
+.pagination__link_active {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination__link_active:hover {
+  background-color: #F2F2F2;
+}
+
+.pagination__link_active:focus, .pagination__link_active:active {
+  color: #000000;
+  background-color: #F2F2F2;
   box-shadow: none;
 }
 
