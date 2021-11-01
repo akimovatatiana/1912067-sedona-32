@@ -47,4 +47,5 @@
 .pagination__link:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #68A2CA;
+  box-shadow: none;
 }

@@ -64,5 +64,6 @@
 }
 
 .breadcrumbs__link:active {
+  box-shadow: none;
   opacity: 0.3;
 }

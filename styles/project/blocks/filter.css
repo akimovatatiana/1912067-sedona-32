@@ -78,6 +78,7 @@
 .filter__button-submit:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #68A2CA;
+  box-shadow: none;
 }
 
 .filter__button-reset {
@@ -97,4 +98,10 @@
 .filter__button-reset:focus {
   box-shadow: inset 0 0 0 3px #83B3D3;
   border-radius: 4px;
+}
+
+.filter__button-reset:active {
+  color: #FFFFFF;
+  opacity: 0.3;
+  box-shadow: none;
 }

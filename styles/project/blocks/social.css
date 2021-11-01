@@ -36,6 +36,10 @@
   border-radius: 10px;
 }
 
+.social__link:active {
+  box-shadow: none;
+}
+
 .social__icon {
   fill: #83B3D3;
 }

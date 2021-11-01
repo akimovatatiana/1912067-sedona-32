@@ -50,4 +50,5 @@
 .search__button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #615048;
+  box-shadow: none;
 }

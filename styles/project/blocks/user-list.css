@@ -51,6 +51,10 @@
   border-radius: 10px;
 }
 
+.user-list__link:active {
+  box-shadow: none;
+}
+
 .user-list__icon {
   position: absolute;
   top: 0;
@@ -104,4 +108,5 @@
 .user-list__booking:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #615048;
+  box-shadow: none;
 }

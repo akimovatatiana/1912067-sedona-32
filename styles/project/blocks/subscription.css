@@ -95,6 +95,7 @@
 .subscription__form-button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #68A2CA;
+  box-shadow: none;
 }
 
 .subscription_index {

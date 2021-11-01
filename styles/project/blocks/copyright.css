@@ -12,6 +12,10 @@
   border-radius: 10px;
 }
 
+.copyright__link:active {
+  box-shadow: none;
+}
+
 .copyright__image {
   fill: #000000;
 }

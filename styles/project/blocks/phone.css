@@ -25,4 +25,5 @@
 .phone__link:active {
   color: #756257;
   opacity: 0.3;
+  box-shadow: none;
 }
