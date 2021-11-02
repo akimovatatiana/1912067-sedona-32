@@ -13,3 +13,7 @@
   position: relative;
   margin: auto;
 }
+
+.page-modal_closed {
+  display: none;
+}

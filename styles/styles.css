@@ -1558,6 +1558,10 @@ html {
   margin: auto;
 }
 
+.page-modal_closed {
+  display: none;
+}
+
 .modal {
   width: 715px;
   padding: 62px 70px 70px;
@@ -1620,6 +1624,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 13px;
+}
+
+.search-form__visitors {
+  display: grid;
+  grid-template-columns: 155px 133px auto 133px;
+  align-items: center;
   margin-bottom: 40px;
 }
 
@@ -1629,12 +1641,49 @@ html {
 }
 
 .search-form__field {
+  padding: 0 18px 0 19px;
   width: 420px;
   height: 50px;
+  border: none;
 }
 
-.search-form__number {
-  width: 133px;
+.search-form__field:hover {
+  background-color: #E6E6E6;
+}
+
+.search-form__field:focus {
+  background-color: #E6E6E6;
+  box-shadow: 0 0 0 3px #83B3D3;
+}
+
+.search-form__field:focus-visible {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 0 0 2px #000000;
+  outline: none;
+}
+
+.search-form__field[type=date]::-webkit-calendar-picker-indicator {
+  width: 12px;
+  height: 12px;
+  color: transparent;
+  opacity: 1;
+  background: url("../img/calendar.svg") no-repeat center;
+  background-size: contain;
+}
+
+.search-form__help {
+  margin: 0 0 0 156px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.search-form__help_closed {
+  display: none;
+}
+
+.search-form__help_error {
+  color: #FF5757;
 }
 
 .search-form__button {
@@ -1647,5 +1696,85 @@ html {
   background: #83B3D3;
   border-radius: 10px;
   text-transform: uppercase;
+}
+
+.search-form__button:hover {
+  background-color: #68A2CA;
+}
+
+.search-form__button:focus {
+  background-color: #68A2CA;
+  box-shadow: 0 0 0 3px #756257;
+}
+
+.search-form__button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #68A2CA;
+  box-shadow: none;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  width: 133px;
+  height: 50px;
+  padding: 0 13px;
+}
+
+.counter__number {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background: #F2F2F2;
+  border: none;
+}
+
+.counter__number::-webkit-outer-spin-button,
+.counter__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.counter__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background: none;
+}
+
+.counter__button:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  border-radius: 4px;
+}
+
+.counter__button:active {
+  box-shadow: none;
+}
+
+.counter__icon {
+  fill: #000000;
+  opacity: 0.3;
+}
+
+.counter__button:hover .counter__icon, .counter__button:focus .counter__icon {
+  opacity: 1;
+}
+
+.counter__button:active .counter__icon {
+  opacity: 0.2;
+}
+
+.modal-field {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background: #F2F2F2;
+  border-radius: 4px;
 }
 

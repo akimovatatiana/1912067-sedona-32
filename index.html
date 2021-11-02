@@ -242,7 +242,7 @@
     </footer>
   </div>
 
-  <div class="page-modal">
+  <div class="page-modal page-modal_closed">
     <div class="page-modal__content modal">
       <button class="button modal__close-button">
         <span class="visually-hidden">Закрыть</span>
@@ -255,23 +255,27 @@
         <form class="modal__form search-form" action="https://echo.htmlacademy.ru/" method="post">
           <div class="search-form__row">
             <label class="search-form__label" for="arrival-date">Дата заезда:</label>
-            <input class="search-form__field" type="date" id="arrival-date" name="arrival-date">
+            <input class="modal-field search-form__field" type="date" id="arrival-date" name="arrival-date">
+            <p class="search-form__help search-form__help_error">Мы не можем отправить вас в прошлое.</p>
+            <p class="search-form__help search-form__help_closed">На эти даты есть свободные номера. Пока есть.</p>
           </div>
           <div class="search-form__row">
             <label class="search-form__label" for="departure-date">Дата выезда:</label>
-            <input class="search-form__field" type="date" id="departure-date" name="departure-date">
+            <input class="modal-field search-form__field" type="date" id="departure-date" name="departure-date">
+            <p class="search-form__help search-form__help_error search-form__help_closed">Мы не можем отправить вас в прошлое.</p>
+            <p class="search-form__help">На эти даты есть свободные номера. Пока есть.</p>
           </div>
-          <div class="search-form__row">
+          <div class="search-form__visitors">
             <label class="search-form__label" for="adults">Взрослые:</label>
-            <div class="search-form__counter counter">
-              <button class="counter__button">
+            <div class="modal-field search-form__counter counter">
+              <button class="button counter__button">
                 <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
+                  <path d="M0 0L0 1L13 1V0L0 0Z"/>
                 </svg>
                 <span class="visually-hidden">Уменьшить счетчик</span>
               </button>
-              <input class="search-form__number counter__number" type="number" id="adults" name="adults">
-              <button class="counter__button">
+              <input class="search-form__number counter__number" type="number" id="adults" name="adults" value="2">
+              <button class="button counter__button">
                 <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                 </svg>
@@ -279,15 +283,15 @@
               </button>
             </div>
             <label class="search-form__label" for="children">Дети:</label>
-            <div class="search-form__counter counter">
-              <button class="counter__button">
+            <div class="modal-field search-form__counter counter">
+              <button class="button counter__button">
                 <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
+                  <path d="M0 0L0 1L13 1V0L0 0Z"/>
                 </svg>
                 <span class="visually-hidden">Уменьшить счетчик</span>
               </button>
-              <input class="search-form__number counter__number" type="number" id="children" name="children">
-              <button class="counter__button">
+              <input class="search-form__number counter__number" type="number" id="children" name="children" value="1">
+              <button class="button counter__button">
                 <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                 </svg>
@@ -300,6 +304,5 @@
       </section>
     </div>
   </div>
-
 </body>
 </html>

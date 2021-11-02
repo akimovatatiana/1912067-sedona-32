@@ -1,0 +1,55 @@
+.counter {
+  display: flex;
+  align-items: center;
+  width: 133px;
+  height: 50px;
+  padding: 0 13px;
+}
+
+.counter__number {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background: #F2F2F2;
+  border: none;
+}
+
+.counter__number::-webkit-outer-spin-button,
+.counter__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.counter__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background: none;
+}
+
+.counter__button:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  border-radius: 4px;
+}
+
+.counter__button:active {
+  box-shadow: none;
+}
+
+.counter__icon {
+  fill: #000000;
+  opacity: 0.3;
+}
+
+.counter__button:hover .counter__icon, .counter__button:focus .counter__icon {
+  opacity: 1;
+}
+
+.counter__button:active .counter__icon {
+  opacity: 0.2;
+}

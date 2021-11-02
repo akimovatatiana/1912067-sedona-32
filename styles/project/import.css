@@ -33,3 +33,5 @@
 @import "blocks/page-modal.css";
 @import "blocks/modal.css";
 @import "blocks/search-form.css";
+@import "blocks/counter.css";
+@import "blocks/modal-field.css";
