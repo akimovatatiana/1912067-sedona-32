@@ -23,6 +23,10 @@
   -webkit-appearance: none;
 }
 
+.counter__number:focus-visible {
+  outline: none;
+}
+
 .counter__button {
   display: flex;
   align-items: center;

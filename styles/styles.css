@@ -1630,7 +1630,7 @@ html {
 
 .search-form__visitors {
   display: grid;
-  grid-template-columns: 155px 133px auto 133px;
+  grid-template-columns: 155px 133px 110px auto 133px;
   align-items: center;
   margin-bottom: 40px;
 }
@@ -1638,6 +1638,11 @@ html {
 .search-form__label {
   font-weight: 700;
   line-height: 40px;
+}
+
+.search-form__label_children {
+  justify-self: end;
+  margin-right: 10px;
 }
 
 .search-form__field {
@@ -1684,6 +1689,52 @@ html {
 
 .search-form__help_error {
   color: #FF5757;
+}
+
+.search-form__info {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  border-radius: 50%;
+}
+
+.search-form__info:hover {
+  background-color: #68A2CA;
+}
+
+.search-form__info-content {
+  display: none;
+  position: absolute;
+  width: 256px;
+  top: 41px;
+  left: -115px;
+  padding: 19px 18px 24px 22px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #333333;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.search-form__info-content::after {
+  content: " ";
+  position: absolute;
+  left: 118px;
+  top: -9px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #333333 transparent;
+}
+
+.search-form__info:hover .search-form__info-content {
+  display: block;
 }
 
 .search-form__button {
@@ -1736,6 +1787,10 @@ html {
 .counter__number::-webkit-outer-spin-button,
 .counter__number::-webkit-inner-spin-button {
   -webkit-appearance: none;
+}
+
+.counter__number:focus-visible {
+  outline: none;
 }
 
 .counter__button {
