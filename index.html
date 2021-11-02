@@ -241,5 +241,65 @@
       </section>
     </footer>
   </div>
+
+  <div class="page-modal">
+    <div class="page-modal__content modal">
+      <button class="button modal__close-button">
+        <span class="visually-hidden">Закрыть</span>
+        <svg class="modal__close-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z"/>
+        </svg>
+      </button>
+      <section class="modal__content">
+        <h2 class="modal__title">Поиск гостиницы в Седоне</h2>
+        <form class="modal__form search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <div class="search-form__row">
+            <label class="search-form__label" for="arrival-date">Дата заезда:</label>
+            <input class="search-form__field" type="date" id="arrival-date" name="arrival-date">
+          </div>
+          <div class="search-form__row">
+            <label class="search-form__label" for="departure-date">Дата выезда:</label>
+            <input class="search-form__field" type="date" id="departure-date" name="departure-date">
+          </div>
+          <div class="search-form__row">
+            <label class="search-form__label" for="adults">Взрослые:</label>
+            <div class="search-form__counter counter">
+              <button class="counter__button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
+                </svg>
+                <span class="visually-hidden">Уменьшить счетчик</span>
+              </button>
+              <input class="search-form__number counter__number" type="number" id="adults" name="adults">
+              <button class="counter__button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                </svg>
+                <span class="visually-hidden">Увеличить счетчик</span>
+              </button>
+            </div>
+            <label class="search-form__label" for="children">Дети:</label>
+            <div class="search-form__counter counter">
+              <button class="counter__button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
+                </svg>
+                <span class="visually-hidden">Уменьшить счетчик</span>
+              </button>
+              <input class="search-form__number counter__number" type="number" id="children" name="children">
+              <button class="counter__button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                </svg>
+                <span class="visually-hidden">Увеличить счетчик</span>
+              </button>
+            </div>
+          </div>
+          <button class="button search-form__button" type="submit">Найти</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
 </body>
 </html>

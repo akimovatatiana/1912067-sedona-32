@@ -30,3 +30,6 @@
 @import "blocks/catalog.css";
 @import "blocks/pagination.css";
 @import "blocks/hotels-per-page.css";
+@import "blocks/page-modal.css";
+@import "blocks/modal.css";
+@import "blocks/search-form.css";

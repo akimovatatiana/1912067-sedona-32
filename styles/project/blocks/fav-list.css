@@ -21,6 +21,7 @@
   grid-template-rows: 24px 24px;
   grid-column-gap: 16px;
   padding: 10px;
+  text-decoration: none;
 }
 
 .fav-list__link:hover {
@@ -45,6 +46,7 @@
 .fav-list__title {
   font-weight: 700;
   line-height: 24px;
+  color: #000000;
 }
 
 .fav-list__type {
