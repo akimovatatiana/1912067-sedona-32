@@ -4,6 +4,7 @@
 
 .reasons__item {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .reasons__title {

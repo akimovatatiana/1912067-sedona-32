@@ -57,7 +57,7 @@
                     <span class="fav-list__title">Desert Quail Inn</span>
                     <span class="fav-list__type">Мотель</span>
                   </a>
-                  <button class="button fav-list__button">
+                  <button class="button fav-list__button" type="button">
                     <svg class="fav-list__icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g opacity="0.2">
                         <path d="M15.3 2.3H13.1H2.8H0.6C0.3 2.3 0 2.5 0 2.8C0 3.1 0.3 3.4 0.6 3.4H2.3V15.4C2.3 15.7 2.6 16 2.9 16H13.1C13.4 16 13.7 15.7 13.7 15.4V3.4H15.4C15.7 3.4 16 3.1 16 2.8C16 2.5 15.6 2.3 15.3 2.3ZM12.5 14.8H3.4V3.4H12.5V14.8Z"/>
@@ -75,7 +75,7 @@
                     <span class="fav-list__title">Villas at Poco Diablo</span>
                     <span class="fav-list__type">Апартаменты</span>
                   </a>
-                  <button class="button fav-list__button">
+                  <button class="button fav-list__button" type="button">
                     <svg class="fav-list__icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g opacity="0.2">
                         <path d="M15.3 2.3H13.1H2.8H0.6C0.3 2.3 0 2.5 0 2.8C0 3.1 0.3 3.4 0.6 3.4H2.3V15.4C2.3 15.7 2.6 16 2.9 16H13.1C13.4 16 13.7 15.7 13.7 15.4V3.4H15.4C15.7 3.4 16 3.1 16 2.8C16 2.5 15.6 2.3 15.3 2.3ZM12.5 14.8H3.4V3.4H12.5V14.8Z"/>
@@ -121,67 +121,78 @@
         <section class="filter">
           <h2 class="visually-hidden">Фильтры по списку гостиниц</h2>
           <form class="filter__form" action="https://echo.htmlacademy.ru/" method="post">
-            <fieldset class="filter__fieldset filter__fieldset-infrastructure">
+            <fieldset class="filter__fieldset filter__fieldset_infrastructure">
               <legend class="filter__title">Инфраструктура:</legend>
               <ul class="filter__list">
                 <li class="filter__checkbox">
                   <label class="filter__label">
-                    <input class="visually-hidden" type="checkbox" name="pool" checked>
-                    <span class="filter__span">Бассейн</span>
+                    <input class="visually-hidden filter__input" type="checkbox" name="pool" checked>
+                    <span class="filter__span filter__span_checkbox">Бассейн</span>
                   </label>
                 </li>
                 <li class="filter__checkbox">
                   <label class="filter__label">
-                    <input class="visually-hidden" type="checkbox" name="parking" checked>
-                    <span class="filter__span">Парковка</span>
+                    <input class="visually-hidden filter__input" type="checkbox" name="parking" checked>
+                    <span class="filter__span filter__span_checkbox">Парковка</span>
                   </label>
                 </li>
                 <li class="filter__checkbox">
                   <label class="filter__label">
-                    <input class="visually-hidden" type="checkbox" name="wi-fi">
-                    <span class="filter__span">Wi-Fi</span>
+                    <input class="visually-hidden filter__input" type="checkbox" name="wi-fi">
+                    <span class="filter__span filter__span_checkbox">Wi-Fi</span>
                   </label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="filter__fieldset filter__fieldset-type">
+            <fieldset class="filter__fieldset filter__fieldset_type">
               <legend class="filter__title">Тип жилья:</legend>
               <ul class="filter__list">
                 <li class="filter__radio-button">
                   <label class="filter__label">
-                    <input class="visually-hidden" type="radio" name="hotel-group" value="hotel" checked>
-                    <span class="filter__span">Гостиница</span>
+                    <input class="visually-hidden filter__input" type="radio" name="hotel-group" value="hotel" checked>
+                    <span class="filter__span filter__span_radio-button">Гостиница</span>
                   </label>
                 </li>
                 <li class="filter__radio-button">
                   <label class="filter__label">
-                    <input class="visually-hidden" type="radio" name="hotel-group" value="motel">
-                    <span class="filter__span">Мотель</span>
+                    <input class="visually-hidden filter__input" type="radio" name="hotel-group" value="motel">
+                    <span class="filter__span filter__span_radio-button">Мотель</span>
                   </label>
                 </li>
                 <li class="filter__radio-button">
                   <label class="filter__label">
-                    <input class="visually-hidden" type="radio" name="hotel-group" value="apartments">
-                    <span class="filter__span">Апартаменты</span>
+                    <input class="visually-hidden filter__input" type="radio" name="hotel-group" value="apartments">
+                    <span class="filter__span filter__span_radio-button">Апартаменты</span>
                   </label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="filter__fieldset filter__fieldset-price price">
-              <legend class="filter__title">Стоимость, ₽:</legend>
-              <label class="price__label">
-                от <input class="price__input" type="number" name="min-price">
-              </label>
-              <label class="price__label">
-                до <input class="price__input" type="number" name="max-price">
-              </label>
+            <fieldset class="filter__fieldset filter__fieldset_price price">
+              <legend class="filter__title price__title">Стоимость, ₽:</legend>
 
-              <button type="button">
-                <span class="visually-hidden">Изменить минимальную цену</span>
-              </button>
-              <button type="button">
-                <span class="visually-hidden">Изменить максимальную цену</span>
-              </button>
+              <div class="price__range">
+                <div class="price__wrapper">
+                  <label class="price__label">
+                    <input class="price__input" type="number" name="min-price" value="0" min="0">
+                    <span class="price__span">от</span>
+                  </label>
+                  <label class="price__label">
+                    <input class="price__input price__input_right" type="number" name="max-price" value="9000" min="1">
+                    <span class="price__span">до</span>
+                  </label>
+                </div>
+
+                <div class="price__scale">
+                  <div class="price__bar">
+                    <button class="button price__toggle price__toggle_min" type="button">
+                      <span class="visually-hidden">Изменить минимальную цену</span>
+                    </button>
+                    <button class="button price__toggle price__toggle_max" type="button">
+                      <span class="visually-hidden">Изменить максимальную цену</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </fieldset>
 
             <div class="filter__button-container">
@@ -415,6 +426,74 @@
         </a>
       </section>
     </footer>
+  </div>
+
+  <div class="page-modal page-modal_closed">
+    <div class="page-modal__content modal">
+      <button class="button modal__close-button" type="button">
+        <span class="visually-hidden">Закрыть</span>
+        <svg class="modal__close-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z"/>
+        </svg>
+      </button>
+      <section class="modal__content">
+        <h2 class="modal__title">Поиск гостиницы в Седоне</h2>
+        <form class="modal__form search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <div class="search-form__row">
+            <label class="search-form__label" for="arrival-date">Дата заезда:</label>
+            <input class="modal-field search-form__field" type="date" id="arrival-date" name="arrival-date">
+            <p class="search-form__help search-form__help_error">Мы не можем отправить вас в прошлое.</p>
+            <p class="search-form__help search-form__help_closed">На эти даты есть свободные номера. Пока есть.</p>
+          </div>
+          <div class="search-form__row">
+            <label class="search-form__label" for="departure-date">Дата выезда:</label>
+            <input class="modal-field search-form__field" type="date" id="departure-date" name="departure-date">
+            <p class="search-form__help search-form__help_error search-form__help_closed">Мы не можем отправить вас в прошлое.</p>
+            <p class="search-form__help">На эти даты есть свободные номера. Пока есть.</p>
+          </div>
+          <div class="search-form__visitors">
+            <label class="search-form__label" for="adults">Взрослые:</label>
+            <div class="modal-field search-form__counter counter">
+              <button class="button counter__button" type="button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0L0 1L13 1V0L0 0Z"/>
+                </svg>
+                <span class="visually-hidden">Уменьшить счетчик</span>
+              </button>
+              <input class="counter__number" type="number" id="adults" name="adults" value="2">
+              <button class="button counter__button" type="button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                </svg>
+                <span class="visually-hidden">Увеличить счетчик</span>
+              </button>
+            </div>
+            <label class="search-form__label search-form__label_children" for="children">Дети:</label>
+            <button class="button search-form__info" type="button">
+              <span>i</span>
+              <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+              <span class="search-form__info-content">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+            </button>
+            <div class="modal-field search-form__counter counter">
+              <button class="button counter__button" type="button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0L0 1L13 1V0L0 0Z"/>
+                </svg>
+                <span class="visually-hidden">Уменьшить счетчик</span>
+              </button>
+              <input class="counter__number" type="number" id="children" name="children" value="1">
+              <button class="button counter__button" type="button">
+                <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                </svg>
+                <span class="visually-hidden">Увеличить счетчик</span>
+              </button>
+            </div>
+          </div>
+          <button class="button search-form__button" type="submit">Найти</button>
+        </form>
+      </section>
+    </div>
   </div>
 </body>
 </html>

@@ -22,7 +22,7 @@
 
 .hotels__sorting-select {
   width: 287px;
-  padding: 9px 11px 10px;
+  padding: 9px 11px 12px 15px;
   font-family: PT Sans, sans-serif;
   color: #333333;
   font-size: 18px;
@@ -30,10 +30,15 @@
   border: 2px solid #E6E6E6;
   box-sizing: border-box;
   border-radius: 4px;
+  background-image: url("../img/catalog/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
 }
 
 .hotels__sorting-select:hover, .hotels__sorting-select:focus {
   border: 2px solid #83B3D3;
+  outline: none;
 }
 
 .hotels__sorting-select:active {

@@ -53,6 +53,14 @@
   outline: none;
 }
 
+.subscription__form-label:invalid {
+  box-shadow: none;
+}
+
+.subscription__form-label:focus:invalid {
+  box-shadow: inset 0 0 0 2px #FF5757;
+}
+
 .subscription__form-label[type="email"]::-moz-placeholder {
   color: rgba(0, 0, 0, 0.6);
 }

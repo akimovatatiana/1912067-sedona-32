@@ -17,8 +17,8 @@
 
 .fav-list__link {
   display: grid;
-  grid-template-columns: 48px auto;
-  grid-template-rows: 24px 24px;
+  grid-template-columns: 48px max-content;
+  grid-template-rows: auto 24px;
   grid-column-gap: 16px;
   padding: 10px;
   text-decoration: none;
