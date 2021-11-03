@@ -1317,9 +1317,15 @@ html {
 .price__input:focus-visible {
   background-color: #756257;
   border-color: #FFFFFF;
+  border-right-width: 1px;
   box-shadow: none;
   outline: none;
   z-index: 1;
+}
+
+.price__input_right:focus-visible {
+  border-right-width: 2px;
+  border-left-width: 1px;
 }
 
 .price__span {
