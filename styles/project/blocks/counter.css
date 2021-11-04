@@ -21,10 +21,21 @@
 .counter__number::-webkit-outer-spin-button,
 .counter__number::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  margin: 0;
+}
+
+.counter__number {
+  -moz-appearance:textfield;
 }
 
 .counter__number:focus-visible {
   outline: none;
+}
+
+.counter__number:disabled,
+.counter__number:disabled:hover {
+  color: #E5E5E5;
+  box-shadow: none;
 }
 
 .counter__button {

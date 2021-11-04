@@ -62,7 +62,7 @@
   width: 144px;
   height: 48px;
   padding-left: 17px;
-  padding-right: 34px;
+  padding-right: 36px;
   font-family: inherit;
   font-size: 18px;
   line-height: 23px;
@@ -107,6 +107,12 @@
   border-left-width: 1px;
 }
 
+.price__input:disabled,
+.price__input:disabled:hover {
+  background-color: #B7B7B7;
+  opacity: 0.3;
+}
+
 .price__span {
   position: absolute;
   top: 11px;
@@ -118,5 +124,10 @@
 
 .price__input::-webkit-outer-spin-button,
 .price__input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.price__input {
+  -moz-appearance:textfield;
 }

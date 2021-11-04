@@ -45,6 +45,13 @@
   outline: none;
 }
 
+.search-form__field:disabled,
+.search-form__field:disabled:hover {
+  color: #000000;
+  background-color: #E5E5E5;
+  box-shadow: none;
+}
+
 .search-form__field[type=date]::-webkit-calendar-picker-indicator {
   width: 12px;
   height: 12px;

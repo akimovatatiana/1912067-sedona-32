@@ -61,6 +61,13 @@
   box-shadow: inset 0 0 0 2px #FF5757;
 }
 
+.subscription__form-label:disabled,
+.subscription__form-label:disabled:hover {
+  color: #000000;
+  background-color: #E5E5E5;
+  box-shadow: none;
+}
+
 .subscription__form-label[type="email"]::-moz-placeholder {
   color: rgba(0, 0, 0, 0.6);
 }

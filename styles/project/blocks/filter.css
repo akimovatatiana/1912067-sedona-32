@@ -96,16 +96,16 @@
 }
 
 .filter__span_checkbox:hover::before {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .filter__span_checkbox:focus::before {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 0 3px #83B3D3;
 }
 
 .filter__span_checkbox:active::before {
-  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: none;
 }
 
@@ -114,6 +114,12 @@
 }
 
 .filter__span_radio-button:active::before {
+  box-shadow: none;
+}
+
+.filter__input:disabled+.filter__span::before,
+.filter__input:disabled+.filter__span:hover::before {
+  background-color: #B7B7B7;
   box-shadow: none;
 }
 

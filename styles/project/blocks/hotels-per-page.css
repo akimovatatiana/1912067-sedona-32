@@ -1,6 +1,7 @@
 .hotels-per-page {
   display: flex;
   align-items: center;
+  min-width: 386px;
 }
 
 .hotels-per-page__label {

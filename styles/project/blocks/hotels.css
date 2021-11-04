@@ -4,12 +4,16 @@
 
 .hotels__header {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 44px;
   padding-bottom: 42px;
 }
 
 .hotels__amount-text {
-  margin: 0 192px 0 0;
+  flex-grow: 1;
+  max-width: 529px;
+  width: 100%;
+  margin: 0;
   font-size: 30px;
   line-height: 47px;
   font-weight: 700;
@@ -27,6 +31,7 @@
   color: #333333;
   font-size: 18px;
   line-height: 23px;
+  background-color: #FFFFFF;
   border: 2px solid #E6E6E6;
   box-sizing: border-box;
   border-radius: 4px;
