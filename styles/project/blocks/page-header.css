@@ -10,6 +10,11 @@
   z-index: 1;
 }
 
+.page-header__logo:focus {
+  box-shadow: inset 0 0 0 3px #83b3d3;
+  border-radius: 10px;
+}
+
 .page-header__logo-image {
   display: block;
   position: absolute;
