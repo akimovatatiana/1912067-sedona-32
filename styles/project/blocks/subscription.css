@@ -25,7 +25,7 @@
 .subscription__form {
   display: grid;
   grid-template-columns: 600px 200px;
-  grid-template-rows: 60px;
+  min-height: 60px;
 }
 
 .subscription__form-label {
@@ -33,7 +33,7 @@
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 26px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
   border: none;
 }
@@ -44,11 +44,11 @@
 
 .subscription__form-label:focus {
   background-color: #E6E6E6;
-  box-shadow: 0 0 0 3px #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .subscription__form-label:focus-visible {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: inset 0 0 0 2px #000000;
   outline: none;
 }
@@ -58,13 +58,13 @@
 }
 
 .subscription__form-label:focus:invalid {
-  box-shadow: inset 0 0 0 2px #FF5757;
+  box-shadow: inset 0 0 0 2px #ff5757;
 }
 
 .subscription__form-label:disabled,
 .subscription__form-label:disabled:hover {
   color: #000000;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   box-shadow: none;
 }
 
@@ -92,43 +92,44 @@
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  color: #FFFFFF;
-  background-color: #83B3D3;
+  color: #ffffff;
+  background-color: #83b3d3;
   border-radius: 0 10px 10px 0;
   text-transform: uppercase;
 }
 
 .subscription__form-button:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .subscription__form-button:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   box-shadow: 0 0 0 3px #756257;
 }
 
 .subscription__form-button:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   box-shadow: none;
 }
 
 .subscription_index {
   padding-top: 92px;
   padding-bottom: 94px;
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #ffffff;
+  background-color: #756257;
   background-image: url("../img/index/index-background-blur.jpg");
   background-position: center, 0, 0;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .subscription_catalog {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .subscription__description_dark {
   color: #333333;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }

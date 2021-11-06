@@ -1,15 +1,15 @@
 .page-catalog {
   padding-bottom: 138px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .page-catalog__header {
   padding-top: 32px;
   padding-bottom: 84px;
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #ffffff;
+  background-color: #756257;
   background-image: url("../img/catalog/catalog-background-blur.jpg");
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 

@@ -11,7 +11,8 @@
   display: block;
 }
 
-.popover-fav__pointer {
+.popover-fav::before {
+  content: "";
   position: absolute;
   top: -9px;
   right: calc(100% - 50% - 8px);
@@ -19,7 +20,7 @@
   height: 0;
   border-style: solid;
   filter: drop-shadow(#E6E6E6 0px -1px 0px);
-  border-color: transparent transparent #FFFFFF;
+  border-color: transparent transparent #ffffff;
   border-width: 0 10px 10px;
 }
 
@@ -30,7 +31,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #756257;
   border-radius: 0 0 20px 20px;
   text-transform: uppercase;
@@ -43,7 +44,7 @@
 
 .popover-fav__link:focus {
   background-color: #615048;
-  box-shadow: 0 0 0 3px #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .popover-fav__link:active {

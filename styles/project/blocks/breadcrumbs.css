@@ -10,7 +10,7 @@
   list-style-type: none;
 }
 
-.breadcrumbs__item_home {
+.breadcrumbs__item {
   position: relative;
 }
 
@@ -18,7 +18,7 @@
   display: block;
   margin-right: 10px;
   padding: 4px 8px 2px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 21px;
   text-decoration: none;
 }
@@ -37,13 +37,13 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .breadcrumbs__item::after {
   position: absolute;
   content: "";
-  left: 31px;
+  right: 2px;
   top: 11px;
   width: 5px;
   height: 8px;
@@ -61,7 +61,7 @@
 }
 
 .breadcrumbs__link:focus {
-  box-shadow: inset 0 0 0 3px #83B3D3;
+  box-shadow: inset 0 0 0 3px #83b3d3;
   border-radius: 4px;
 }
 

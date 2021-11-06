@@ -1,5 +1,8 @@
 .filter__form {
   display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
   padding: 0 71px;
 }
 
@@ -41,7 +44,7 @@
   padding-left: 40px;
 }
 
-.filter__checkbox:nth-child(3n), .filter__radio-button:nth-child(3n) {
+.filter__checkbox:last-child, .filter__radio-button:last-child {
   margin-bottom: 0;
 }
 
@@ -61,7 +64,7 @@
   height: 20px;
   top: 1px;
   left: -39px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .filter__span_checkbox::before {
@@ -72,14 +75,14 @@
   border-radius: 50%;
 }
 
-.filter__input:checked+.filter__span::after {
+.filter__input:checked + .filter__span::after {
   content: "";
   position: absolute;
   top: 6px;
   left: -35px;
 }
 
-.filter__input:checked+.filter__span_checkbox::after {
+.filter__input:checked + .filter__span_checkbox::after {
   width: 13px;
   height: 10px;
   background-image: url("../img/tick.svg");
@@ -87,7 +90,7 @@
   background-repeat: no-repeat;
 }
 
-.filter__input:checked+.filter__span_radio-button::after {
+.filter__input:checked + .filter__span_radio-button::after {
   left: -34px;
   width: 10px;
   height: 10px;
@@ -95,30 +98,34 @@
   border-radius: 50%;
 }
 
-.filter__span_checkbox:hover::before {
+.filter__input:hover + .filter__span_checkbox::before {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.filter__span_checkbox:focus::before {
+.filter__input:focus + .filter__span_checkbox::before {
   background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 0 0 3px #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
-.filter__span_checkbox:active::before {
+.filter__input:active + .filter__span_checkbox::before {
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: none;
 }
 
-.filter__span_radio-button:focus::before {
-  box-shadow: 0 0 0 3px #83B3D3;
-}
-
-.filter__span_radio-button:active::before {
+.filter__input:active + .filter__span_radio-button::before {
   box-shadow: none;
 }
 
-.filter__input:disabled+.filter__span::before,
-.filter__input:disabled+.filter__span:hover::before {
+.filter__input:focus + .filter__span_radio-button::before {
+  box-shadow: inset 0 0 0 3px #83b3d3;
+}
+
+.filter__input:checked:focus + .filter__span_radio-button::before {
+  box-shadow: 0 0 0 3px #83b3d3;
+}
+
+.filter__input:disabled + .filter__span::before,
+.filter__input:disabled + .filter__span:hover::before {
   background-color: #B7B7B7;
   box-shadow: none;
 }
@@ -136,24 +143,24 @@
   padding: 14px 0 15px;
   font-size: 16px;
   font-weight: 700;
-  color: #FFFFFF;
-  background-color: #83B3D3;
+  color: #ffffff;
+  background-color: #83b3d3;
   border-radius: 4px;
   text-transform: uppercase;
 }
 
 .filter__button-submit:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .filter__button-submit:focus {
-  background: #68A2CA;
-  box-shadow: 0 0 0 3px #FFFFFF;
+  background: #68a2ca;
+  box-shadow: 0 0 0 3px #ffffff;
 }
 
 .filter__button-submit:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   box-shadow: none;
 }
 
@@ -163,7 +170,7 @@
   padding: 0;
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: none;
   border: none;
 }
@@ -179,12 +186,12 @@
   height: calc(100% + 9px);
   top: -3px;
   left: 1px;
-  box-shadow: inset 0 0 0 3px #83B3D3;
+  box-shadow: inset 0 0 0 3px #83b3d3;
   border-radius: 4px;
 }
 
 .filter__button-reset:active {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.3;
   box-shadow: none;
 }

@@ -1,7 +1,7 @@
 .fav-list {
   height: 100%;
   padding: 15px 14px 10px 15px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-top: 1px solid #E6E6E6;
   border-left: 1px solid #E6E6E6;
   border-right: 1px solid #E6E6E6;
@@ -30,7 +30,7 @@
 }
 
 .fav-list__link:focus {
-  box-shadow: inset 0 0 0 3px #83B3D3;
+  box-shadow: inset 0 0 0 3px #83b3d3;
   border-radius: 10px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .fav-list__button:focus {
-  box-shadow: inset 0 0 0 3px #83B3D3;
+  box-shadow: inset 0 0 0 3px #83b3d3;
   border-radius: 10px;
 }
 

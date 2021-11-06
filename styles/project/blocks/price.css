@@ -11,16 +11,15 @@
   position: absolute;
   width: 227px;
   height: 4px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .price__toggle {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 .price__toggle:hover {
@@ -28,12 +27,12 @@
 }
 
 .price__toggle:focus {
-  outline: 3px solid #83B3D3;
+  outline: 3px solid #83b3d3;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .price__toggle:active {
-  outline: 2px solid #83B3D3;
+  outline: 2px solid #83b3d3;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -66,10 +65,10 @@
   font-family: inherit;
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: none;
   box-sizing: border-box;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-right-width: 1px;
   border-radius: 4px 0 0 4px;
 }
@@ -87,7 +86,7 @@
 }
 
 .price__input:focus {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   box-shadow: inset 0 0 0 3px #81B3D2;
   outline: 3px solid #81B3D2;
   z-index: 1;
@@ -95,7 +94,7 @@
 
 .price__input:focus-visible {
   background-color: #756257;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   border-right-width: 1px;
   box-shadow: none;
   outline: none;

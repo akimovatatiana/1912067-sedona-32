@@ -24,15 +24,15 @@
   justify-content: center;
   min-width: 40px;
   min-height: 40px;
-  color: #83B3D3;
-  background-color: #FFFFFF;
+  color: #83b3d3;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   text-decoration: none;
 }
 
 .social__link:focus {
-  box-shadow: inset 0 0 0 3px #83B3D3;
+  box-shadow: inset 0 0 0 3px #83b3d3;
   border-radius: 10px;
 }
 
@@ -41,18 +41,18 @@
 }
 
 .social__icon {
-  fill: #83B3D3;
+  fill: #83b3d3;
 }
 
 .social__link:hover .social__icon {
-  fill: #68A2CA;
+  fill: #68a2ca;
 }
 
 .social__link:focus .social__icon {
-  fill: #68A2CA;
+  fill: #68a2ca;
 }
 
 .social__link:active .social__icon {
-  fill: #68A2CA;
+  fill: #68a2ca;
   opacity: 0.3;
 }

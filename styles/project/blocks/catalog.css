@@ -7,12 +7,13 @@
 
 .catalog__item {
   display: flex;
-  padding-top: 30px;
+  padding-top: 27px;
   padding-bottom: 30px;
   border-top: 1px solid #E6E6E6;
 }
 
 .catalog__image-link {
+  margin-top: 3px;
   margin-right: 37px;
   text-decoration: none;
 }
@@ -22,7 +23,7 @@
 }
 
 .catalog__image-link:focus {
-  box-shadow: 0 0 0 3px #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .catalog__image-link:active {
@@ -78,17 +79,17 @@
 }
 
 .catalog__subtitle {
-  margin-bottom: 29px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 236px;
+  margin-bottom: 32px;
 }
 
 .catalog__type, .catalog__price {
   line-height: 23px;
   color: #333333;
-  background-color: #FFFFFF;
-}
-
-.catalog__type {
-  margin-right: 73px;
+  background-color: #ffffff;
 }
 
 .catalog__button-container {
@@ -110,7 +111,7 @@
   margin-right: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #756257;
   text-align: center;
   text-decoration: none;
@@ -122,7 +123,7 @@
 
 .catalog__more:focus {
   background-color: #615048;
-  box-shadow: 0 0 0 3px #83B3D3;
+  box-shadow: 0 0 0 3px #83b3d3;
 }
 
 .catalog__more:active {
@@ -133,43 +134,43 @@
 
 .catalog__favourite {
   width: 160px;
-  color: #FFFFFF;
-  background-color: #83B3D3;
+  color: #ffffff;
+  background-color: #83b3d3;
 }
 
 .catalog__favourite:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   box-shadow: inset 0 0 0 1px #756257;
 }
 
 .catalog__favourite:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   box-shadow: 0 0 0 3px #756257;
 }
 
 .catalog__favourite:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   box-shadow: inset 0 0 0 1px #756257;
 }
 
 .catalog__favourite_added {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 .catalog__favourite_added:hover {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   box-shadow: none;
 }
 
 .catalog__favourite_added:focus {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   box-shadow: 0 0 0 3px #756257;
 }
 
 .catalog__favourite_added:active {
   color: rgba(255, 255, 255, 0.3);
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   box-shadow: none;
 }
 
@@ -178,6 +179,7 @@
   position: relative;
   flex-direction: column;
   justify-content: end;
+  margin-top: 3px;
   margin-left: auto;
 }
 
@@ -213,6 +215,6 @@
   text-align: center;
   font-size: 16px;
   color: #333333;
-  background: #F2F2F2;
+  background: #f2f2f2;
   text-transform: uppercase;
 }

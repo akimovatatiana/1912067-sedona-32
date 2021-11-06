@@ -3,11 +3,12 @@
   padding-top: 47px;
   padding-bottom: 82px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #ffffff;
+  background-color: #68a2ca;
   background-image: url("../img/index/index-background.jpg");
   background-position: center, 0, 0;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .banner__logo {

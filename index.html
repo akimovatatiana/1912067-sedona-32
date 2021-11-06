@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body class="page-body">
@@ -11,23 +12,23 @@
       <nav class="main-navigation">
         <ul class="main-navigation__list site-list">
           <li class="site-list__item site-list__item-current">
-            <a class="site-list__link" href="#">Главная</a>
+            <a class="link site-list__link" href="#">Главная</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="#">О Cедоне</a>
+            <a class="link site-list__link" href="#">О Cедоне</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="catalog.html">Гостиницы</a>
+            <a class="link site-list__link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
 
-        <a class="page-header__logo" href="index.html">
+        <a class="link page-header__logo" href="index.html">
           <img class="page-header__logo-image" src="img/logo.svg" width="138" height="70" alt="Логотип городка Седона">
         </a>
 
         <ul class="main-navigation__list user-list main-navigation__list-right">
           <li class="user-list__item">
-            <a class="user-list__link" href="#">
+            <a class="link user-list__link" href="#">
               <svg class="user-list__icon" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_605:466)">
                   <path d="M18 16.4999L14.3 12.7999C15.3 11.4999 16 9.7999 16 7.8999C16 3.4999 12.4 -0.100098 8 -0.100098C3.6 -0.100098 0 3.5999 0 7.9999C0 12.3999 3.6 15.9999 8 15.9999C9.8 15.9999 11.5 15.3999 12.9 14.2999L16.6 17.9999L18 16.4999ZM8 13.9999C4.7 13.9999 2 11.2999 2 7.9999C2 4.6999 4.7 1.9999 8 1.9999C11.3 1.9999 14 4.6999 14 7.9999C14 11.2999 11.3 13.9999 8 13.9999Z"/>
@@ -38,22 +39,22 @@
                   </clipPath>
                 </defs>
               </svg>
-              <span class="visually-hidden">Поиск</span>
+              <span class="visually-hidden">Поиск.</span>
             </a>
           </li>
           <li class="user-list__item">
-            <a class="user-list__link user-list__link_favourite" href="#">
+            <a class="link user-list__link user-list__link_favourite" href="#">
               <svg class="user-list__icon" aria-hidden="true" focusable="false"  width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z"/>
               </svg>
-              <span class="visually-hidden">Избранное</span>
+              <span class="user-list__fav-number">12</span>
+              <span class="visually-hidden">Избранное.</span>
             </a>
 
-            <div class="user-list__popover popover-fav popover-fav_open">
-              <div class="popover-fav__pointer"></div>
+            <div class="user-list__popover popover-fav">
               <ul class="popover-fav__list fav-list">
                 <li class="fav-list__item">
-                  <a class="fav-list__link" href="#">
+                  <a class="link fav-list__link" href="#">
                     <img class="fav-list__image" src="img/catalog/desert-quail-inn.jpg" width="48" height="48" alt="Мотель Desert Quail Inn">
                     <span class="fav-list__title">Desert Quail Inn</span>
                     <span class="fav-list__type">Мотель</span>
@@ -65,11 +66,11 @@
                       <path d="M6.2001 12C6.5001 12 6.8001 11.7 6.8001 11.4V5.7C6.8001 5.4 6.5001 5.1 6.2001 5.1C5.9001 5.1 5.6001 5.4 5.6001 5.7V11.4C5.7001 11.7 5.9001 12 6.2001 12Z"/>
                       <path d="M9.7001 12C10.0001 12 10.3001 11.7 10.3001 11.4V5.7C10.3001 5.4 10.0001 5.1 9.7001 5.1C9.4001 5.1 9.1001 5.5 9.1001 5.7V11.4C9.1001 11.7 9.3001 12 9.7001 12Z"/>
                     </svg>
-                    <span class="visually-hidden">Удалить из избранного</span>
+                    <span class="visually-hidden">Удалить из избранного.</span>
                   </button>
                 </li>
                 <li class="fav-list__item">
-                  <a class="fav-list__link" href="#">
+                  <a class="link fav-list__link" href="#">
                     <img class="fav-list__image" src="img/catalog/villas-at-poco-diablo.jpg" width="48" height="48" alt="Апартаменты Villas at Poco Diablo">
                     <span class="fav-list__title">Villas at Poco Diablo</span>
                     <span class="fav-list__type">Апартаменты</span>
@@ -81,16 +82,16 @@
                       <path d="M6.2001 12C6.5001 12 6.8001 11.7 6.8001 11.4V5.7C6.8001 5.4 6.5001 5.1 6.2001 5.1C5.9001 5.1 5.6001 5.4 5.6001 5.7V11.4C5.7001 11.7 5.9001 12 6.2001 12Z"/>
                       <path d="M9.7001 12C10.0001 12 10.3001 11.7 10.3001 11.4V5.7C10.3001 5.4 10.0001 5.1 9.7001 5.1C9.4001 5.1 9.1001 5.5 9.1001 5.7V11.4C9.1001 11.7 9.3001 12 9.7001 12Z"/>
                     </svg>
-                    <span class="visually-hidden">Удалить из избранного</span>
+                    <span class="visually-hidden">Удалить из избранного.</span>
                   </button>
                 </li>
               </ul>
-              <a class="popover-fav__link" href="#">Все избранные</a>
+              <a class="link popover-fav__link" href="#">Все избранные</a>
             </div>
           </li>
 
           <li class="user-list__item">
-            <a class="user-list__booking button" href="#">Хочу сюда!</a>
+            <a class="link user-list__booking button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -167,8 +168,8 @@
       <section class="search">
         <h2 class="visually-hidden">Поиск гостиницы в городке Седона</h2>
         <p class="search__text">Заинтересовались?</p>
-        <p class="search__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="search__button" href="#">Поиск гостиницы в Седоне</a>
+        <p class="search__description">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="link search__button" href="#">Поиск гостиницы в Седоне</a>
       </section>
 
       <section class="subscription subscription_index">
@@ -189,27 +190,27 @@
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link" href="https://twitter.com/htmlacademy_ru">
+            <a class="link social__link" href="https://twitter.com/htmlacademy_ru">
               <svg class="social__icon" aria-hidden="true" focusable="false" width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.6.2c1.8-.5 3.2.3 3.8 1.2.7-.2 1.4-.5 2.1-.7 0 .9-.6 1.5-.9 1.8.7.1 1.4-.6 1.4-.6-.2 1-1.1 1.8-1.7 2C16.1 10.7 13 15.1 5.7 15h-.5c-.4 0-4.4-.5-5.2-1.9 2.4.2 4.1-.4 5-1.2-1-.3-2.9-.4-3.2-2.9.4.1.6.2 1.3.1C1.8 8.3.4 7.5.5 5.3c.3.3 1.1.5 1.4.5C1.1 5.6-.2 2.5.9.9c1.9 1.9 4 3.6 7.6 3.8C8.7 2.3 9.7.8 11.6.2Z"/>
               </svg>
-              <span class="visually-hidden">Twitter</span>
+              <span class="visually-hidden">Twitter.</span>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link" href="https://www.facebook.com/htmlacademy">
+            <a class="link social__link" href="https://www.facebook.com/htmlacademy">
               <svg class="social__icon" aria-hidden="true" focusable="false" width="10" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 0C4.8 0 3 1.8 3 4v2H0v4h3v8h4v-8h3V6H7V4h3V0H7Z"/>
               </svg>
-              <span class="visually-hidden">Facebook</span>
+              <span class="visually-hidden">Facebook.</span>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link" href="https://www.youtube.com/c/HTMLAcademyRUS">
+            <a class="link social__link" href="https://www.youtube.com/c/HTMLAcademyRUS">
               <svg class="social__icon" aria-hidden="true" focusable="false" width="20" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z"/>
               </svg>
-              <span class="visually-hidden">YouTube</span>
+              <span class="visually-hidden">YouTube.</span>
             </a>
           </li>
         </ul>
@@ -217,12 +218,12 @@
 
       <section class="page-footer__phone phone">
         <h2 class="visually-hidden">Телефон</h2>
-        <a class="phone__link" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="link phone__link" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
 
       <section class="page-footer__copyright copyright">
         <h2 class="visually-hidden">Разработка сайта</h2>
-        <a class="copyright__link" href="https://htmlacademy.ru/">
+        <a class="link copyright__link" href="https://htmlacademy.ru/">
           <svg class="copyright__image" aria-hidden="true" focusable="false"  width="115" height="34" viewBox="0 0 115 34" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 12.8999V15.4999H2.5V12.8999H0Z"/>
             <path d="M11.6 4.5C10 4.5 8.80002 5.2 8.00002 6.2H7.90002V0H5.90002V15.5H7.90002V10.2C7.90002 8.1 9.20002 6.6 11.2 6.6C13 6.6 14.1 8 14.1 9.8V15.5H16.1V9.4C16.2 6.4 14.3 4.5 11.6 4.5Z"/>
@@ -237,6 +238,7 @@
             <path d="M98.2 17.8999C96.6 17.8999 95.3 18.6999 94.6 19.8999H94.5C93.9 18.6999 92.7 17.8999 91.1 17.8999C89.7 17.8999 88.6 18.5999 88 19.6999V18.1999H86.1V28.7999H88.1V23.3999C88.1 21.3999 89.1 19.9999 90.7 19.8999C92.2 19.8999 93.1 20.8999 93.1 22.4999V28.7999H95.1V23.1999C95.1 20.7999 96.5 19.8999 97.7 19.8999C99.2 19.8999 100.1 20.8999 100.1 22.4999V28.7999H102.1V22.2999C102.2 19.6999 100.7 17.8999 98.2 17.8999Z"/>
             <path d="M109.4 27.0001L105.8 18.1001H103.6L108.4 29.7001C108.1 30.6001 107.7 30.9001 106.7 30.9001H104.2V32.9001H106.7C108.5 32.9001 109.5 32.1001 110.2 30.3001L114.9 18.1001H112.8L109.4 27.0001Z"/>
           </svg>
+          <span class="visually-hidden">Перейти на сайт HTML Академии.</span>
         </a>
       </section>
     </footer>
@@ -245,23 +247,63 @@
   <div class="page-modal page-modal_closed">
     <div class="page-modal__content modal">
       <button class="button modal__close-button" type="button">
-        <span class="visually-hidden">Закрыть</span>
         <svg class="modal__close-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z"/>
         </svg>
+        <span class="visually-hidden">Закрыть.</span>
       </button>
       <section class="modal__content">
         <h2 class="modal__title">Поиск гостиницы в Седоне</h2>
-        <form class="modal__form search-form" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="modal__form search-form" action="https://echo.htmlacademy.ru/" method="get">
           <div class="search-form__row">
             <label class="search-form__label" for="arrival-date">Дата заезда:</label>
-            <input class="modal-field search-form__field" type="date" id="arrival-date" name="arrival-date" required>
+            <div class="search-form__field">
+              <input class="modal-field search-form__input" type="text" id="arrival-date" name="arrival-date" placeholder="Укажите дату" required>
+              <button class="button search-form__calendar-button" type="button">
+                <svg class="search-form__calendar-icon" aria-hidden="true" focusable="false" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.3">
+                    <path d="M5.5 10C5.8 10 6 9.8 6 9.5C6 9.2 5.8 9 5.5 9C5.2 9 5 9.2 5 9.5C5 9.8 5.2 10 5.5 10Z" fill="black"/>
+                    <path d="M14 2H12V0H11V2H4V0H3V2H1C0.4 2 0 2.4 0 3V6V7V14C0 14.5 0.4 15 1 15H14C14.5 15 15 14.5 15 14V7V6V3C15 2.4 14.5 2 14 2ZM14 14H1V7H14V14ZM1 6V3H3V5H4V3H11V5H12V3H14V6H1Z" fill="black"/>
+                    <path d="M7.5 10C7.8 10 8 9.8 8 9.5C8 9.2 7.8 9 7.5 9C7.2 9 7 9.2 7 9.5C7 9.8 7.2 10 7.5 10Z" fill="black"/>
+                    <path d="M9.5 10C9.8 10 10 9.8 10 9.5C10 9.2 9.8 9 9.5 9C9.2 9 9 9.2 9 9.5C9 9.8 9.2 10 9.5 10Z" fill="black"/>
+                    <path d="M5.5 11C5.2 11 5 11.2 5 11.5C5 11.8 5.2 12 5.5 12C5.8 12 6 11.8 6 11.5C6 11.2 5.8 11 5.5 11Z" fill="black"/>
+                    <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z" fill="black"/>
+                    <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z" fill="black"/>
+                    <path d="M7.5 11C7.2 11 7 11.2 7 11.5C7 11.8 7.2 12 7.5 12C7.8 12 8 11.8 8 11.5C8 11.2 7.8 11 7.5 11Z" fill="black"/>
+                    <path d="M9.5 11C9.2 11 9 11.2 9 11.5C9 11.8 9.2 12 9.5 12C9.8 12 10 11.8 10 11.5C10 11.2 9.8 11 9.5 11Z" fill="black"/>
+                    <path d="M11.5 10C11.8 10 12 9.8 12 9.5C12 9.2 11.8 9 11.5 9C11.2 9 11 9.2 11 9.5C11 9.8 11.2 10 11.5 10Z" fill="black"/>
+                    <path d="M11.5 11C11.2 11 11 11.2 11 11.5C11 11.8 11.2 12 11.5 12C11.8 12 12 11.8 12 11.5C12 11.2 11.8 11 11.5 11Z" fill="black"/>
+                  </g>
+                </svg>
+                <span class="visually-hidden">Открыть календарь.</span>
+              </button>
+            </div>
             <p class="search-form__help search-form__help_error">Мы не можем отправить вас в прошлое.</p>
             <p class="search-form__help search-form__help_closed">На эти даты есть свободные номера. Пока есть.</p>
           </div>
           <div class="search-form__row">
             <label class="search-form__label" for="departure-date">Дата выезда:</label>
-            <input class="modal-field search-form__field" type="date" id="departure-date" name="departure-date" required>
+            <div class="search-form__field">
+              <input class="modal-field search-form__input" type="text" id="departure-date" name="departure-date" placeholder="Укажите дату" required>
+              <button class="button search-form__calendar-button" type="button">
+                <svg class="search-form__calendar-icon" aria-hidden="true" focusable="false" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.3">
+                    <path d="M5.5 10C5.8 10 6 9.8 6 9.5C6 9.2 5.8 9 5.5 9C5.2 9 5 9.2 5 9.5C5 9.8 5.2 10 5.5 10Z" fill="black"/>
+                    <path d="M14 2H12V0H11V2H4V0H3V2H1C0.4 2 0 2.4 0 3V6V7V14C0 14.5 0.4 15 1 15H14C14.5 15 15 14.5 15 14V7V6V3C15 2.4 14.5 2 14 2ZM14 14H1V7H14V14ZM1 6V3H3V5H4V3H11V5H12V3H14V6H1Z" fill="black"/>
+                    <path d="M7.5 10C7.8 10 8 9.8 8 9.5C8 9.2 7.8 9 7.5 9C7.2 9 7 9.2 7 9.5C7 9.8 7.2 10 7.5 10Z" fill="black"/>
+                    <path d="M9.5 10C9.8 10 10 9.8 10 9.5C10 9.2 9.8 9 9.5 9C9.2 9 9 9.2 9 9.5C9 9.8 9.2 10 9.5 10Z" fill="black"/>
+                    <path d="M5.5 11C5.2 11 5 11.2 5 11.5C5 11.8 5.2 12 5.5 12C5.8 12 6 11.8 6 11.5C6 11.2 5.8 11 5.5 11Z" fill="black"/>
+                    <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z" fill="black"/>
+                    <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z" fill="black"/>
+                    <path d="M7.5 11C7.2 11 7 11.2 7 11.5C7 11.8 7.2 12 7.5 12C7.8 12 8 11.8 8 11.5C8 11.2 7.8 11 7.5 11Z" fill="black"/>
+                    <path d="M9.5 11C9.2 11 9 11.2 9 11.5C9 11.8 9.2 12 9.5 12C9.8 12 10 11.8 10 11.5C10 11.2 9.8 11 9.5 11Z" fill="black"/>
+                    <path d="M11.5 10C11.8 10 12 9.8 12 9.5C12 9.2 11.8 9 11.5 9C11.2 9 11 9.2 11 9.5C11 9.8 11.2 10 11.5 10Z" fill="black"/>
+                    <path d="M11.5 11C11.2 11 11 11.2 11 11.5C11 11.8 11.2 12 11.5 12C11.8 12 12 11.8 12 11.5C12 11.2 11.8 11 11.5 11Z" fill="black"/>
+                  </g>
+                </svg>
+                <span class="visually-hidden">Открыть календарь.</span>
+              </button>
+            </div>
             <p class="search-form__help search-form__help_error search-form__help_closed">Мы не можем отправить вас в прошлое.</p>
             <p class="search-form__help">На эти даты есть свободные номера. Пока есть.</p>
           </div>
@@ -272,20 +314,20 @@
                 <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0L0 1L13 1V0L0 0Z"/>
                 </svg>
-                <span class="visually-hidden">Уменьшить счетчик</span>
+                <span class="visually-hidden">Уменьшить счетчик.</span>
               </button>
               <input class="counter__number" type="number" id="adults" name="adults" value="2" min="1" required>
               <button class="button counter__button" type="button">
                 <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                 </svg>
-                <span class="visually-hidden">Увеличить счетчик</span>
+                <span class="visually-hidden">Увеличить счетчик.</span>
               </button>
             </div>
             <label class="search-form__label search-form__label_children" for="children">Дети:</label>
             <button class="button search-form__info" type="button">
               <span>i</span>
-              <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+              <span class="visually-hidden">Посмотреть дополнительную информацию.</span>
               <span class="search-form__info-content">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
             </button>
             <div class="modal-field search-form__counter counter">
@@ -293,14 +335,14 @@
                 <svg class="counter__icon" aria-hidden="true" focusable="false"  width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0L0 1L13 1V0L0 0Z"/>
                 </svg>
-                <span class="visually-hidden">Уменьшить счетчик</span>
+                <span class="visually-hidden">Уменьшить счетчик.</span>
               </button>
               <input class="counter__number" type="number" id="children" name="children" value="1" min="0">
               <button class="button counter__button" type="button">
                 <svg class="counter__icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                 </svg>
-                <span class="visually-hidden">Увеличить счетчик</span>
+                <span class="visually-hidden">Увеличить счетчик.</span>
               </button>
             </div>
           </div>
